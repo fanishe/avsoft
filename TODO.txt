@@ -1,0 +1,23 @@
+TODO:
+
+links
+https://stackoverflow.com/questions/7670280/tree-plotting-in-python
+    http://etetoolkit.org - A Python framework for the analysis and visualization of trees
+    http://www.graphviz.org/about/ - Graph Visualization
+
+Tree-plots in Python
+https://plotly.com/python/tree-plots/ 
+
+Yandex search - tree matplotlib
+https://yandex.ru/search/?text=tree%20matplotlib&lr=213&clid=9582
+
+
+Построение графиков в Python при помощи Matplotlib
+https://python-scripts.com/matplotlib
+
+Web Scraping с помощью python
+https://habr.com/ru/post/280238/
+
+Получение данных c веб-сайта без API в 3 строки кода на Python
+https://tproger.ru/articles/python-pandas/
+
