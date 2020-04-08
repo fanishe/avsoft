@@ -17,9 +17,29 @@ soup = BeautifulSoup(page,'html.parser')
 
 all_links = soup.find_all('a')
 
-for link in all_links:
-    print(link.get('href'))
+hostname = urlparse(mypage).hostname
 
-parsed = urlparse(mypage)
-hostname = parsed.hostname
-print('hostname is ', hostname)
+list_links = []
+social = ['vk', 'facebook', 'linkedin', 'twitter', 'callto', 'skype', 'tel']
+for link in all_links:
+    l = link.get('href')
+
+    if l:
+
+        if hostname in l:
+            l = l.split(hostname)
+            l = l[-1]
+        
+        for s in social:
+            if s in l:
+                l = 'zero'
+
+        if l not in list_links and l != 'zero' and len(l) > 1:
+            list_links.append(l)
+
+
+
+list_links.sort()
+with open('domains.txt', 'w') as f:
+    for link in list_links:
+        f.write(f"{link}\n")
