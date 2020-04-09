@@ -2,44 +2,37 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-# Источник
-# https://coderoad.ru/46446457/Создание-sitemap-с-помощью-python
 
-# Тестовая карта сайта
-# https://pythonworld.ru/karta-sajta
+class Parse_Link(object):
+    def __init__(self, url):
+        self.url = url
+        self.list_links = []
+        self.filename = 'parsed_links.txt'
+        self.social = ['vk', 'facebook', 'linkedin', 'twitter', 'callto', 'skype', 'tel']
 
-# mypage = "https://pythonworld.ru/"
-mypage = "https://avsw.ru"
-# mypage = "http://fanishe.pythonanywhere.com/index"
-page = urlopen(mypage)
+    def make_links(self):
+        page = urlopen(self.url)
+        hostname = urlparse(self.url).hostname
+        soup = BeautifulSoup(page, 'html.parser')
+        all_links = soup.find_all('a')
 
-soup = BeautifulSoup(page,'html.parser')
+        for link in all_links:
+            l = link.get('href')
 
-all_links = soup.find_all('a')
+            if l:
+                if hostname in l:
+                    l = l.split(hostname)
+                    l = l[-1]
 
-hostname = urlparse(mypage).hostname
+                for s in self.social:
+                    if s in l:
+                        l = 'zero'
 
-list_links = []
-social = ['vk', 'facebook', 'linkedin', 'twitter', 'callto', 'skype', 'tel']
-for link in all_links:
-    l = link.get('href')
+                if l not in self.list_links and l != 'zero' and len(l) > 1:
+                    self.list_links.append(l)
+        self.list_links.sort()
 
-    if l:
-
-        if hostname in l:
-            l = l.split(hostname)
-            l = l[-1]
-        
-        for s in social:
-            if s in l:
-                l = 'zero'
-
-        if l not in list_links and l != 'zero' and len(l) > 1:
-            list_links.append(l)
-
-
-
-list_links.sort()
-with open('domains.txt', 'w') as f:
-    for link in list_links:
-        f.write(f"{link}\n")
+    def write_to_file(self):
+        with open(self.filename, 'w') as f:
+            for link in self.list_links:
+                f.write(f"{link}\n")
