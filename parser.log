@@ -1,0 +1,147 @@
+2020-04-11 05:56:39.103026 - START NEW SESSION
+2020-04-11 05:56:40.016590 - Thread-1 CREATED
+2020-04-11 05:56:40.016590 - Thread-1 STARTED 
+E https://avsw.ru/services
+2020-04-11 05:56:40.048590 - Thread-2 CREATED
+2020-04-11 05:56:40.049591 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 05:56:40.048590 - Thread-2 STARTED 
+2020-04-11 05:56:40.073586 - Thread-3 CREATED
+2020-04-11 05:56:40.073586 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 05:56:40.073586 - Thread-3 STARTED 
+2020-04-11 05:56:40.098590 - Thread-4 CREATED
+2020-04-11 05:56:40.099588 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 05:56:40.099588 - Thread-4 STARTED 
+2020-04-11 05:56:40.125596 - Thread-5 CREATED
+2020-04-11 05:56:40.127588 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 05:56:40.127588 - Thread-5 STARTED 
+2020-04-11 05:56:40.155584 - Thread-6 CREATED
+2020-04-11 05:56:40.155584 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 05:56:40.155584 - Thread-6 STARTED 
+2020-04-11 05:56:40.187594 - Thread-7 CREATED
+2020-04-11 05:56:40.187594 - Thread-7 STARTED 
+2020-04-11 05:56:40.190592 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 05:56:40.212596 - Thread-8 CREATED
+2020-04-11 05:56:40.213597 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 05:56:40.217583 - Thread-8 STARTED 
+2020-04-11 05:56:40.267593 - Thread-9 CREATED
+2020-04-11 05:56:40.268590 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 05:56:40.267593 - Thread-9 STARTED 
+2020-04-11 05:56:40.312586 - Thread-10 CREATED
+2020-04-11 05:56:40.316592 - Thread-10 BEGIN PARSE https://avsw.ru/about
+2020-04-11 05:56:40.308588 - Thread-10 STARTED 
+2020-04-11 05:56:40.343589 - Thread-11 CREATED
+2020-04-11 05:56:40.344591 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 05:56:40.344591 - Thread-11 STARTED 
+2020-04-11 05:56:40.370591 - Thread-12 CREATED
+2020-04-11 05:56:40.371595 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 05:56:40.397588 - Thread-12 STARTED 
+2020-04-11 05:56:40.400589 - Thread-13 CREATED
+2020-04-11 05:56:40.401590 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 05:56:40.400589 - Thread-13 STARTED 
+2020-04-11 05:56:40.428592 - Thread-14 CREATED
+2020-04-11 05:56:40.430593 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 05:56:40.427592 - Thread-14 STARTED 
+2020-04-11 05:56:40.465582 - Thread-15 CREATED
+2020-04-11 05:56:40.466586 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 05:56:40.466586 - Thread-15 STARTED 
+2020-04-11 05:56:40.507590 - Thread-16 CREATED
+2020-04-11 05:56:40.507590 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 05:56:40.507590 - Thread-16 STARTED 
+2020-04-11 05:56:40.786587 - Thread-1 KILLED
+2020-04-11 05:56:40.788588 - Thread-2 KILLED
+2020-04-11 05:56:40.808585 - Thread-3 KILLED
+2020-04-11 05:56:40.829586 - Thread-4 KILLED
+2020-04-11 05:56:40.874587 - Thread-5 KILLED
+2020-04-11 05:56:40.877588 - Thread-6 KILLED
+2020-04-11 05:56:40.955587 - ERROR - HTTP Error 404: Not Found - Thread-15 - https://avsw.ru/ru/
+2020-04-11 05:56:40.992584 - Thread-7 KILLED
+2020-04-11 05:56:41.123587 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 05:56:41.124585 - Thread-11 ADD /about/events/event/ImportSub2019
+2020-04-11 05:56:41.124585 - Thread-11 ADD /about/events/event/InfoSecurity2018
+2020-04-11 05:56:41.125585 - Thread-11 ADD /about/events/event/InfoSecurity2017
+2020-04-11 05:56:41.125585 - Thread-11 ADD /about/events/event/InfoSecurity2016
+2020-04-11 05:56:41.297584 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 05:56:41.297584 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 05:56:41.298584 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 05:56:41.298584 - Thread-8 ADD /images/athena/scr2.png
+2020-04-11 05:56:41.299589 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 05:56:41.299589 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 05:56:41.299589 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 05:56:41.300592 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 05:56:41.300592 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 05:56:41.301588 - Thread-9 ADD /images/octopus/scr3.png
+2020-04-11 05:56:41.301588 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 05:56:41.301588 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 05:56:41.302595 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 05:56:41.302595 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 05:56:41.302595 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 05:56:41.303597 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 05:56:41.304593 - Thread-8 KILLED
+2020-04-11 05:56:41.311589 - Thread-9 KILLED
+2020-04-11 05:56:41.314584 - Thread-10 KILLED
+2020-04-11 05:56:41.315586 - Thread-11 KILLED
+2020-04-11 05:56:41.322587 - Thread-12 KILLED
+2020-04-11 05:56:41.376585 - Thread-14 ADD /images/agreement/agreement.pdf
+2020-04-11 05:56:41.525581 - Thread-13 KILLED
+2020-04-11 05:56:41.526581 - Thread-14 KILLED
+2020-04-11 05:56:41.541588 - Thread-15 KILLED
+2020-04-11 05:56:41.558590 - Thread-16 KILLED
+2020-04-11 05:56:41.560590 - Parse time 2.4555649757385254 sec
+2020-04-11 05:56:41.584583 - 
+        /-contacts
+       |
+       |           /-ImportSub2019
+       |          |
+       |          |--InfoSecurity2016
+       |          |
+       |-eventsevent-InfoSecurity2017
+   /about         |
+  |    |          |--InfoSecurity2018
+  |    |          |
+  |    |           \-TBForum2020
+  |    |
+  |    |--sertifikaty
+  |    |
+  |     \-vakansii
+  |
+  |-componentcontentarticle2-uncategorised-4-athena
+  |
+  |      /agreement-agreement.pdf
+  |     |
+  |     |      /-scr1.png
+  |     |     |
+  |     |     |--scr2.png
+  |     |     |
+  |     |     |--scr3.png
+  |     |-athena
+  |     |     |--scr4.png
+  |-images    |
+  |     |     |--scr5.png
+--|     |     |
+  |     |      \-scr6.png
+  |     |
+  |     |--octopus
+  |     |
+  |     |             /-Athena_brochure.jpg
+  |     |            |
+  |     |            |--afina_presentation.pdf
+  |      \prezentations
+  |                  |--athena.pdf
+  |                  |
+  |                   \-octopus.pdf
+  |
+  |--products
+  |
+  |--ru
+  |
+  |        /-analysis-of-malware
+  |       |
+  |       |--documents-development
+  |       |
+  |       |--improving-information-security-system
+   \services
+          |--information-security-audit
+          |
+          |--investigation-of-security-incidents
+          |
+           \-protecting-confidential-information-and-personal-data

@@ -8,7 +8,7 @@ class Parse_Link(object):
         self.url = url
         self.list_links = []
         self.filename = 'parsed_links.txt'
-        self.social = ['vk', 'facebook', 'linkedin', 'twitter', 'callto', 'skype', 'tel']
+        self.social = ['vk', 'facebook', 'linkedin', 'twitter', 'callto', 'skype', 'tel', '#']
 
     def make_links(self):
         page = urlopen(self.url)
@@ -20,17 +20,21 @@ class Parse_Link(object):
             l = link.get('href')
 
             if l:
+                # убираю аргументы из ссылок
+                if '?' in l:
+                    l = l[:l.find('?')]
+
                 if hostname in l:
                     l = l.split(hostname)
                     l = l[-1]
 
                 for s in self.social:
-                    if s in l:
+                    if s in l :
                         l = 'zero'
 
                 if l not in self.list_links and l != 'zero' and len(l) > 1:
                     self.list_links.append(l)
-        self.list_links.sort()
+        # self.list_links.sort()
 
     def write_to_file(self):
         with open(self.filename, 'w') as f:

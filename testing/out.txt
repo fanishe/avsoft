@@ -1,0 +1,63 @@
+        /--- contacts
+       |
+       |---- events
+       |
+       |---- events
+       |
+       |---- event
+       |
+       |---- ImportSub2019
+       |
+       |---- events
+       |
+       |---- event
+       |
+       |---- InfoSecurity2016
+       |
+       |---- events
+       |
+   /about--- event
+  |    |
+  |    |---- InfoSecurity2017
+  |    |
+  |    |---- events
+  |    |
+  |    |---- event
+  |    |
+  |    |---- InfoSecurity2018
+  |    |
+  |    |---- events
+  |    |
+  |    |---- event
+  |    |
+  |    |---- TBForum2020
+  |    |
+  |    |---- sertifikaty
+  |    |
+  |     \--- vakansii
+--|
+  |         /--- content
+  |        |
+  |        |---- article
+  |-component
+  |        |---- 2-uncategorised
+  |        |
+  |         \--- 4-athena
+  |
+  |          /--- com_eventgallery
+  |         |
+  |-components--- helpers
+  |         |
+  |          \--- image.php
+  |
+  |      /--- agreement
+  |     |
+  |     |---- agreement.pdf
+  |     |
+  |     |---- athena
+   \images
+        |---- scr1.png
+        |
+        |---- athena
+        |
+         \--- scr2.png
