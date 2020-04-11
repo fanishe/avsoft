@@ -145,3 +145,1087 @@ E https://avsw.ru/services
           |--investigation-of-security-incidents
           |
            \-protecting-confidential-information-and-personal-data
+2020-04-11 16:00:41.896955 - START NEW SESSION
+2020-04-11 16:00:45.105476 - Thread-1 CREATED
+2020-04-11 16:00:45.105476 - Thread-1 STARTED 
+2020-04-11 16:00:45.151482 - Thread-1 BEGIN PARSE https://avsw.ru/services
+2020-04-11 16:00:45.216480 - Thread-2 CREATED
+2020-04-11 16:00:45.216480 - Thread-2 STARTED 
+2020-04-11 16:00:45.435478 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 16:00:45.465474 - Thread-3 CREATED
+2020-04-11 16:00:45.572480 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 16:00:45.465474 - Thread-3 STARTED 
+2020-04-11 16:00:45.714478 - Thread-4 CREATED
+2020-04-11 16:00:45.744480 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 16:00:45.717475 - Thread-4 STARTED 
+2020-04-11 16:00:45.950482 - Thread-5 CREATED
+2020-04-11 16:00:45.973481 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 16:00:45.943479 - Thread-5 STARTED 
+2020-04-11 16:00:46.151477 - Thread-6 CREATED
+2020-04-11 16:00:46.262475 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 16:00:46.149476 - Thread-6 STARTED 
+2020-04-11 16:00:46.355478 - Thread-7 CREATED
+2020-04-11 16:00:46.355478 - Thread-7 STARTED 
+2020-04-11 16:00:46.381476 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 16:00:46.390477 - Thread-8 CREATED
+2020-04-11 16:00:46.452474 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 16:00:46.415479 - Thread-8 STARTED 
+2020-04-11 16:00:46.507476 - Thread-9 CREATED
+2020-04-11 16:00:46.506477 - Thread-9 STARTED 
+2020-04-11 16:00:46.539478 - Thread-10 CREATED
+2020-04-11 16:00:46.542475 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 16:00:46.541478 - Thread-10 STARTED 
+E https://avsw.ru/about
+2020-04-11 16:00:46.658477 - Thread-11 CREATED
+2020-04-11 16:00:46.661477 - Thread-11 STARTED 
+2020-04-11 16:00:46.698471 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 16:00:46.706480 - Thread-12 CREATED
+2020-04-11 16:00:46.698471 - Thread-12 STARTED 
+2020-04-11 16:00:46.757478 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 16:00:46.757478 - Thread-13 CREATED
+2020-04-11 16:00:46.824475 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 16:00:46.863474 - Thread-13 STARTED 
+2020-04-11 16:00:46.901471 - Thread-14 CREATED
+2020-04-11 16:00:46.901471 - Thread-14 STARTED 
+2020-04-11 16:00:46.928475 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 16:00:46.928475 - Thread-15 CREATED
+2020-04-11 16:00:46.928475 - Thread-15 STARTED 
+2020-04-11 16:00:46.969479 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 16:00:47.034474 - Thread-16 CREATED
+2020-04-11 16:00:47.034474 - Thread-16 STARTED 
+2020-04-11 16:00:47.076478 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 16:00:47.076478 - Thread-1 KILLED
+2020-04-11 16:00:47.413478 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 16:00:47.377476 - Thread-15 ERROR - HTTP Error 404: Not Found - https://avsw.ru/ru/
+2020-04-11 16:00:47.446474 - Thread-2 KILLED
+2020-04-11 16:00:47.488475 - Thread-11 ADD /about/events/event/ImportSub2019
+2020-04-11 16:00:47.512476 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 16:00:47.515475 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 16:00:47.487475 - Thread-3 KILLED
+2020-04-11 16:00:47.673471 - Thread-8 ADD /images/athena/scr2.png
+2020-04-11 16:00:47.695478 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 16:00:47.810469 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 16:00:47.814478 - Thread-11 ADD /about/events/event/InfoSecurity2018
+2020-04-11 16:00:47.828480 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 16:00:47.814478 - Thread-4 KILLED
+2020-04-11 16:00:47.851475 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 16:00:47.852477 - Thread-9 ADD /images/octopus/scr3.png
+2020-04-11 16:00:47.853476 - Thread-11 ADD /about/events/event/InfoSecurity2017
+2020-04-11 16:00:47.861478 - Thread-13 ADD /images/agreement/agreement.pdf
+2020-04-11 16:00:47.852477 - Thread-5 KILLED
+2020-04-11 16:00:47.863477 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 16:00:47.891475 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 16:00:47.892478 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 16:00:47.894477 - Thread-11 ADD /about/events/event/InfoSecurity2016
+2020-04-11 16:00:47.894477 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 16:00:47.894477 - Thread-6 KILLED
+2020-04-11 16:00:47.915479 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 16:00:47.915479 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 16:00:47.915479 - Thread-7 KILLED
+2020-04-11 16:00:47.965477 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 16:00:47.966474 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 16:00:47.996475 - Thread-8 KILLED
+2020-04-11 16:00:48.042478 - Thread-9 KILLED
+2020-04-11 16:00:48.078482 - Thread-10 KILLED
+2020-04-11 16:00:48.137486 - Thread-11 KILLED
+2020-04-11 16:00:48.167478 - Thread-12 KILLED
+2020-04-11 16:00:48.197474 - Thread-13 KILLED
+2020-04-11 16:00:48.232477 - Thread-14 KILLED
+2020-04-11 16:00:48.271475 - Thread-15 KILLED
+2020-04-11 16:00:48.303479 - Thread-16 KILLED
+2020-04-11 16:00:48.338485 - Parse time 6.4125261306762695 sec
+2020-04-11 16:00:48.436479 - 
+        /-contacts
+       |
+       |           /-ImportSub2019
+       |          |
+       |          |--InfoSecurity2016
+       |          |
+       |-eventsevent-InfoSecurity2017
+   /about         |
+  |    |          |--InfoSecurity2018
+  |    |          |
+  |    |           \-TBForum2020
+  |    |
+  |    |--sertifikaty
+  |    |
+  |     \-vakansii
+  |
+  |-componentcontentarticle2-uncategorised-4-athena
+  |
+  |      /agreement-agreement.pdf
+  |     |
+  |     |      /-scr1.png
+  |     |     |
+  |     |     |--scr2.png
+  |     |     |
+  |     |     |--scr3.png
+  |     |-athena
+  |     |     |--scr4.png
+  |-images    |
+  |     |     |--scr5.png
+--|     |     |
+  |     |      \-scr6.png
+  |     |
+  |     |--octopus
+  |     |
+  |     |             /-Athena_brochure.jpg
+  |     |            |
+  |     |            |--afina_presentation.pdf
+  |      \prezentations
+  |                  |--athena.pdf
+  |                  |
+  |                   \-octopus.pdf
+  |
+  |--products
+  |
+  |--ru
+  |
+  |        /-analysis-of-malware
+  |       |
+  |       |--documents-development
+  |       |
+  |       |--improving-information-security-system
+   \services
+          |--information-security-audit
+          |
+          |--investigation-of-security-incidents
+          |
+           \-protecting-confidential-information-and-personal-data
+2020-04-11 17:38:58.764562 - START NEW SESSION
+2020-04-11 17:39:01.234883 - Thread-1 CREATED
+2020-04-11 17:39:01.234883 - Thread-1 STARTED 
+2020-04-11 17:39:01.261885 - Thread-1 BEGIN PARSE https://avsw.ru/services
+2020-04-11 17:39:01.286884 - Thread-2 CREATED
+2020-04-11 17:39:01.260884 - Thread-2 STARTED 
+2020-04-11 17:39:01.318885 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 17:39:01.313883 - Thread-3 STARTED 
+2020-04-11 17:39:01.332884 - Thread-3 CREATED
+2020-04-11 17:39:01.386884 - Thread-4 CREATED
+2020-04-11 17:39:01.390883 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 17:39:01.418883 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 17:39:01.390883 - Thread-4 STARTED 
+2020-04-11 17:39:01.485887 - Thread-5 CREATED
+2020-04-11 17:39:01.501886 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 17:39:01.485887 - Thread-5 STARTED 
+2020-04-11 17:39:01.564884 - Thread-6 CREATED
+2020-04-11 17:39:01.564884 - Thread-6 STARTED 
+2020-04-11 17:39:01.594886 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 17:39:01.595887 - Thread-7 CREATED
+2020-04-11 17:39:01.593890 - Thread-7 STARTED 
+2020-04-11 17:39:01.664878 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 17:39:01.691883 - Thread-8 CREATED
+2020-04-11 17:39:01.692883 - Thread-8 STARTED 
+2020-04-11 17:39:01.732887 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 17:39:01.761878 - Thread-9 CREATED
+2020-04-11 17:39:01.761878 - Thread-9 STARTED 
+2020-04-11 17:39:01.822883 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 17:39:01.823884 - Thread-10 CREATED
+2020-04-11 17:39:01.824894 - Thread-10 STARTED 
+2020-04-11 17:39:01.958883 - Thread-10 BEGIN PARSE https://avsw.ru/about
+2020-04-11 17:39:01.982881 - Thread-11 CREATED
+2020-04-11 17:39:01.984881 - Thread-11 STARTED 
+2020-04-11 17:39:02.012891 - Thread-12 STARTED 
+2020-04-11 17:39:02.015884 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 17:39:02.187884 - Thread-12 CREATED
+2020-04-11 17:39:02.251883 - Thread-13 CREATED
+2020-04-11 17:39:02.283884 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 17:39:02.311882 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 17:39:02.284884 - Thread-13 STARTED 
+2020-04-11 17:39:02.541064 - Thread-14 CREATED
+2020-04-11 17:39:02.591884 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 17:39:02.541881 - Thread-14 STARTED 
+2020-04-11 17:39:02.593883 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 17:39:02.629884 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 17:39:02.630883 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 17:39:02.630883 - Thread-8 ADD /images/athena/scr2.png
+2020-04-11 17:39:02.647883 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 17:39:02.647883 - Thread-11 ADD /about/events/event/ImportSub2019
+2020-04-11 17:39:02.648888 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 17:39:02.650885 - Thread-15 CREATED
+2020-04-11 17:39:02.699889 - Thread-11 ADD /about/events/event/InfoSecurity2018
+2020-04-11 17:39:02.649884 - Thread-15 STARTED 
+2020-04-11 17:39:02.775888 - Thread-11 ADD /about/events/event/InfoSecurity2017
+2020-04-11 17:39:02.775888 - Thread-16 STARTED 
+2020-04-11 17:39:02.807887 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 17:39:02.807887 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 17:39:02.857883 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 17:39:02.879886 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 17:39:02.879886 - Thread-16 CREATED
+t/events/event/InfoSecurity2016
+2020-04-11 17:39:02.880886 - Thread-17 STARTED 
+2020-04-11 17:39:02.903881 - Thread-17 BEGIN PARSE https://avsw.ru/images/prezentations/octopus.pdf
+2020-04-11 17:39:02.939884 - Thread-9 ADD /images/octopus/scr3.png
+2020-04-11 17:39:02.949885 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 17:39:02.950888 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 17:39:03.072884 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 17:39:03.073884 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 17:39:03.083882 - Thread-18 CREATED
+2020-04-11 17:39:03.073884 - Thread-18 STARTED 
+2020-04-11 17:39:03.152886 - Thread-18 BEGIN PARSE https://avsw.ru/images/athena/scr1.png
+2020-04-11 17:39:03.179880 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 17:39:03.194885 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 17:39:03.180887 - Thread-15 ERROR - HTTP Error 404: Not Found - https://avsw.ru/ru/
+2020-04-11 17:39:03.222882 - Thread-19 CREATED
+2020-04-11 17:39:03.194885 - Thread-19 STARTED 
+2020-04-11 17:39:03.284883 - Thread-20 CREATED
+2020-04-11 17:39:03.285882 - Thread-19 BEGIN PARSE https://avsw.ru/images/athena/scr2.png
+2020-04-11 17:39:03.284883 - Thread-20 STARTED 
+2020-04-11 17:39:03.518889 - Thread-20 BEGIN PARSE https://avsw.ru/about/events/event/TBForum2020
+2020-04-11 17:39:03.578883 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 17:39:03.580883 - Thread-21 CREATED
+2020-04-11 17:39:03.578883 - Thread-21 STARTED 
+2020-04-11 17:39:03.636889 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 17:39:03.651887 - Thread-21 BEGIN PARSE https://avsw.ru/images/octopus/scr1.png
+2020-04-11 17:39:03.704885 - Thread-22 CREATED
+2020-04-11 17:39:03.694880 - Thread-22 STARTED 
+2020-04-11 17:39:03.814885 - Thread-22 BEGIN PARSE https://avsw.ru/about/events/event/ImportSub2019
+2020-04-11 17:39:03.861883 - Thread-23 CREATED
+2020-04-11 17:39:03.861883 - Thread-23 STARTED 
+2020-04-11 17:39:03.927885 - Thread-23 BEGIN PARSE https://avsw.ru/images/athena/scr3.png
+2020-04-11 17:39:03.967887 - Thread-24 CREATED
+2020-04-11 17:39:04.015888 - Thread-24 BEGIN PARSE https://avsw.ru/images/octopus/scr2.png
+2020-04-11 17:39:03.926888 - Thread-24 STARTED 
+2020-04-11 17:39:04.128886 - Thread-25 CREATED
+2020-04-11 17:39:04.128886 - Thread-25 STARTED 
+2020-04-11 17:39:04.218886 - Thread-25 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2018
+2020-04-11 17:39:04.311886 - Thread-26 CREATED
+2020-04-11 17:39:04.324884 - Thread-26 STARTED 
+2020-04-11 17:39:04.382882 - Thread-26 BEGIN PARSE https://avsw.ru/images/athena/scr4.png
+2020-04-11 17:39:04.433900 - Thread-27 CREATED
+2020-04-11 17:39:04.382882 - Thread-27 STARTED 
+2020-04-11 17:39:04.509886 - Thread-27 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2017
+2020-04-11 17:39:04.547883 - Thread-28 CREATED
+2020-04-11 17:39:04.565885 - Thread-28 STARTED 
+2020-04-11 17:39:04.612882 - Thread-28 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2016
+2020-04-11 17:39:04.642884 - Thread-29 CREATED
+2020-04-11 17:39:04.641882 - Thread-29 STARTED 
+2020-04-11 17:39:04.718884 - Thread-29 BEGIN PARSE https://avsw.ru/images/athena/scr5.png
+2020-04-11 17:39:05.001880 - Thread-30 CREATED
+2020-04-11 17:39:05.005880 - Thread-30 STARTED 
+2020-04-11 17:39:05.143886 - Thread-30 BEGIN PARSE https://avsw.ru/images/octopus/scr3.png
+2020-04-11 17:39:05.316890 - Thread-22 ADD /components/com_eventgallery/helpers/image.php
+2020-04-11 17:39:05.342884 - Thread-31 CREATED
+2020-04-11 17:39:05.328882 - Thread-31 STARTED 
+2020-04-11 17:39:05.433889 - Thread-31 BEGIN PARSE https://avsw.ru/images/athena/scr6.png
+2020-04-11 17:39:05.565883 - Thread-32 CREATED
+2020-04-11 17:39:05.600880 - Thread-32 BEGIN PARSE https://avsw.ru/images/prezentations/athena.pdf
+2020-04-11 17:39:05.602883 - Thread-32 STARTED 
+2020-04-11 17:39:05.717884 - Thread-33 CREATED
+2020-04-11 17:39:05.715883 - Thread-33 STARTED 
+2020-04-11 17:39:05.810885 - Thread-33 BEGIN PARSE https://avsw.ru/images/octopus/scr4.png
+2020-04-11 17:39:05.875887 - Thread-34 CREATED
+2020-04-11 17:39:05.861886 - Thread-34 STARTED 
+2020-04-11 17:39:05.924885 - Thread-34 BEGIN PARSE https://avsw.ru/images/octopus/scr5.png
+2020-04-11 17:39:05.973887 - Thread-35 CREATED
+2020-04-11 17:39:05.923886 - Thread-35 STARTED 
+2020-04-11 17:39:06.118885 - Thread-35 BEGIN PARSE https://avsw.ru/images/octopus/scr6.png
+2020-04-11 17:39:06.161885 - Thread-36 CREATED
+2020-04-11 17:39:06.160884 - Thread-36 STARTED 
+2020-04-11 17:39:06.324888 - Thread-36 BEGIN PARSE https://avsw.ru/images/agreement/agreement.pdf
+2020-04-11 17:39:06.524880 - Thread-37 CREATED
+2020-04-11 17:39:06.952885 - Thread-37 STARTED 
+2020-04-11 17:39:07.242885 - Thread-37 BEGIN PARSE https://avsw.ru/images/prezentations/Athena_brochure.jpg
+2020-04-11 17:39:07.406884 - Thread-38 CREATED
+2020-04-11 17:39:07.536885 - Thread-38 BEGIN PARSE https://avsw.ru/images/prezentations/afina_presentation.pdf
+2020-04-11 17:39:07.408883 - Thread-38 STARTED 
+2020-04-11 17:39:08.042883 - Thread-39 CREATED
+2020-04-11 17:39:08.148882 - Thread-39 BEGIN PARSE https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:39:08.043884 - Thread-39 STARTED 
+2020-04-11 17:39:08.685881 - Thread-1 KILLED
+2020-04-11 17:39:08.872887 - Thread-2 KILLED
+2020-04-11 17:39:08.987888 - Thread-3 KILLED
+2020-04-11 17:39:09.073886 - Thread-4 KILLED
+2020-04-11 17:39:09.347887 - Thread-5 KILLED
+2020-04-11 17:39:09.426886 - Thread-39 ERROR - HTTP Error 404: Not Found - https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:39:09.549883 - Thread-6 KILLED
+2020-04-11 17:39:09.793885 - Thread-7 KILLED
+2020-04-11 17:39:09.886882 - Thread-8 KILLED
+2020-04-11 17:39:10.409890 - Thread-9 KILLED
+2020-04-11 17:39:10.578881 - Thread-10 KILLED
+2020-04-11 17:39:10.681888 - Thread-11 KILLED
+2020-04-11 17:39:10.851886 - Thread-12 KILLED
+2020-04-11 17:39:10.940892 - Thread-13 KILLED
+2020-04-11 17:39:11.028883 - Thread-14 KILLED
+2020-04-11 17:39:11.146892 - Thread-15 KILLED
+2020-04-11 17:39:11.177884 - Thread-16 KILLED
+2020-04-11 17:39:13.640775 - Thread-17 ERROR - [WinError 10054] ��������� ���� ������������� �������� ������������ ����������� - https://avsw.ru/images/prezentations/octopus.pdf
+2020-04-11 17:39:13.677773 - Thread-17 KILLED
+2020-04-11 17:39:13.797777 - Thread-18 KILLED
+2020-04-11 17:39:14.144772 - Thread-19 KILLED
+2020-04-11 17:39:14.330777 - Thread-20 KILLED
+2020-04-11 17:39:14.418777 - Thread-21 KILLED
+2020-04-11 17:39:14.534783 - Thread-22 KILLED
+2020-04-11 17:39:14.568779 - Thread-23 KILLED
+2020-04-11 17:39:14.628775 - Thread-24 KILLED
+2020-04-11 17:39:14.710776 - Thread-25 KILLED
+2020-04-11 17:39:14.770775 - Thread-26 KILLED
+2020-04-11 17:39:14.822775 - Thread-27 KILLED
+2020-04-11 17:39:14.878778 - Thread-28 KILLED
+2020-04-11 17:39:14.967776 - Thread-29 KILLED
+2020-04-11 17:39:15.024774 - Thread-30 KILLED
+2020-04-11 17:39:15.085776 - Thread-31 KILLED
+2020-04-11 17:39:15.144776 - Thread-32 KILLED
+2020-04-11 17:39:15.209775 - Thread-33 KILLED
+2020-04-11 17:39:15.254775 - Thread-34 KILLED
+2020-04-11 17:39:15.308773 - Thread-35 KILLED
+2020-04-11 17:39:15.373776 - Thread-36 KILLED
+2020-04-11 17:39:15.419775 - Thread-37 KILLED
+2020-04-11 17:39:16.731169 - Thread-38 KILLED
+2020-04-11 17:39:16.798170 - Thread-39 KILLED
+2020-04-11 17:39:16.913170 - Parse time 18.04790163040161 sec
+2020-04-11 17:40:20.712551 - START NEW SESSION
+2020-04-11 17:40:21.724852 - Thread-1 CREATED
+2020-04-11 17:40:21.744862 - Thread-1 BEGIN PARSE https://avsw.ru/services
+2020-04-11 17:40:21.724852 - Thread-1 STARTED 
+2020-04-11 17:40:21.841858 - Thread-2 CREATED
+2020-04-11 17:40:21.841858 - Thread-2 STARTED 
+2020-04-11 17:40:21.892860 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 17:40:21.982854 - Thread-3 CREATED
+2020-04-11 17:40:22.037860 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 17:40:21.977860 - Thread-3 STARTED 
+2020-04-11 17:40:22.174855 - Thread-4 CREATED
+2020-04-11 17:40:22.168859 - Thread-4 STARTED 
+2020-04-11 17:40:22.216865 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 17:40:22.311858 - Thread-5 CREATED
+2020-04-11 17:40:22.357860 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 17:40:22.330859 - Thread-5 STARTED 
+2020-04-11 17:40:22.490857 - Thread-6 CREATED
+2020-04-11 17:40:22.485860 - Thread-6 STARTED 
+2020-04-11 17:40:22.572856 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 17:40:22.635858 - Thread-7 CREATED
+2020-04-11 17:40:22.639859 - Thread-7 STARTED 
+2020-04-11 17:40:22.692863 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 17:40:22.758859 - Thread-8 CREATED
+2020-04-11 17:40:22.756859 - Thread-8 STARTED 
+2020-04-11 17:40:22.855859 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 17:40:22.921858 - Thread-9 CREATED
+2020-04-11 17:40:23.003858 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 17:40:22.979857 - Thread-9 STARTED 
+2020-04-11 17:40:23.144857 - Thread-10 CREATED
+2020-04-11 17:40:23.160855 - Thread-10 BEGIN PARSE https://avsw.ru/about
+2020-04-11 17:40:23.143858 - Thread-10 STARTED 
+2020-04-11 17:40:23.324859 - Thread-11 CREATED
+2020-04-11 17:40:23.313865 - Thread-11 STARTED 
+2020-04-11 17:40:23.411865 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 17:40:23.472861 - Thread-12 CREATED
+2020-04-11 17:40:23.609860 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 17:40:23.410864 - Thread-12 STARTED 
+2020-04-11 17:40:23.677858 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 17:40:23.819856 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 17:40:23.819856 - Thread-13 CREATED
+2020-04-11 17:40:23.820858 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 17:40:23.893855 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 17:40:23.894858 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 17:40:23.926858 - Thread-9 ADD /images/octopus/scr3.png
+2020-04-11 17:40:23.927857 - Thread-11 ADD /about/events/event/ImportSub2019
+2020-04-11 17:40:23.819856 - Thread-13 STARTED 
+2020-04-11 17:40:23.970858 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 17:40:24.052859 - Thread-11 ADD /about/events/event/InfoSecurity2018
+2020-04-11 17:40:24.053858 - Thread-8 ADD /images/athena/scr2.png
+2020-04-11 17:40:24.066859 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 17:40:24.133858 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 17:40:24.135859 - Thread-11 ADD /about/events/event/InfoSecurity2017
+2020-04-11 17:40:24.151861 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 17:40:24.159859 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 17:40:24.166862 - Thread-14 CREATED
+2020-04-11 17:40:24.177860 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 17:40:24.189864 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 17:40:24.143861 - Thread-14 STARTED 
+2020-04-11 17:40:24.263861 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 17:40:24.316857 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 17:40:24.432860 - Thread-11 ADD /about/events/event/InfoSecurity2016
+2020-04-11 17:40:24.475859 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 17:40:24.502856 - Thread-15 CREATED
+2020-04-11 17:40:24.431859 - Thread-15 STARTED 
+2020-04-11 17:40:24.610863 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 17:40:24.809857 - Thread-16 CREATED
+2020-04-11 17:40:24.809857 - Thread-16 STARTED 
+2020-04-11 17:40:24.852858 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 17:40:24.906861 - Thread-13 ADD /images/agreement/agreement.pdf
+2020-04-11 17:40:25.028861 - Thread-17 CREATED
+2020-04-11 17:40:25.050857 - Thread-15 ERROR - HTTP Error 404: Not Found - https://avsw.ru/ru/
+2020-04-11 17:40:25.068858 - Thread-17 BEGIN PARSE https://avsw.ru/images/prezentations/octopus.pdf
+2020-04-11 17:40:25.054861 - Thread-17 STARTED 
+2020-04-11 17:40:25.382858 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 17:40:25.484857 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 17:40:25.582858 - Thread-18 CREATED
+2020-04-11 17:40:25.388858 - Thread-18 STARTED 
+2020-04-11 17:40:25.714857 - Thread-18 BEGIN PARSE https://avsw.ru/images/octopus/scr1.png
+2020-04-11 17:40:25.788860 - Thread-19 CREATED
+2020-04-11 17:40:25.850861 - Thread-19 BEGIN PARSE https://avsw.ru/images/athena/scr1.png
+2020-04-11 17:40:25.891859 - Thread-19 STARTED 
+2020-04-11 17:40:25.950859 - Thread-20 CREATED
+2020-04-11 17:40:25.950859 - Thread-20 STARTED 
+2020-04-11 17:40:26.006857 - Thread-20 BEGIN PARSE https://avsw.ru/images/athena/scr2.png
+2020-04-11 17:40:26.018861 - Thread-21 CREATED
+2020-04-11 17:40:26.006857 - Thread-21 STARTED 
+2020-04-11 17:40:26.071865 - Thread-21 BEGIN PARSE https://avsw.ru/images/octopus/scr2.png
+2020-04-11 17:40:26.070858 - Thread-22 STARTED 
+2020-04-11 17:40:26.137860 - Thread-23 CREATED
+2020-04-11 17:40:26.138859 - Thread-22 BEGIN PARSE https://avsw.ru/about/events/event/TBForum2020
+2020-04-11 17:40:26.200861 - Thread-23 BEGIN PARSE https://avsw.ru/images/octopus/scr3.png
+2020-04-11 17:40:26.137860 - Thread-23 STARTED 
+2020-04-11 17:40:26.379868 - Thread-24 CREATED
+2020-04-11 17:40:26.379868 - Thread-24 STARTED 
+2020-04-11 17:40:26.425858 - Thread-24 BEGIN PARSE https://avsw.ru/about/events/event/ImportSub2019
+2020-04-11 17:40:26.425858 - Thread-25 CREATED
+2020-04-11 17:40:26.425858 - Thread-25 STARTED 
+2020-04-11 17:40:26.489859 - Thread-25 BEGIN PARSE https://avsw.ru/images/octopus/scr4.png
+2020-04-11 17:40:26.530858 - Thread-26 CREATED
+2020-04-11 17:40:26.489859 - Thread-26 STARTED 
+2020-04-11 17:40:26.567857 - Thread-26 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2018
+2020-04-11 17:40:26.566856 - Thread-27 STARTED 
+2020-04-11 17:40:26.615858 - Thread-27 CREATED
+2020-04-11 17:40:26.654857 - Thread-27 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2017
+2020-04-11 17:40:26.655856 - Thread-28 CREATED
+2020-04-11 17:40:26.655856 - Thread-28 STARTED 
+2020-04-11 17:40:26.715857 - Thread-28 BEGIN PARSE https://avsw.ru/images/octopus/scr5.png
+2020-04-11 17:40:26.757862 - Thread-29 CREATED
+2020-04-11 17:40:26.716859 - Thread-29 STARTED 
+2020-04-11 17:40:26.846858 - Thread-30 CREATED
+2020-04-11 17:40:26.852856 - Thread-29 BEGIN PARSE https://avsw.ru/images/athena/scr3.png
+2020-04-11 17:40:26.846858 - Thread-30 STARTED 
+2020-04-11 17:40:26.926857 - Thread-30 BEGIN PARSE https://avsw.ru/images/athena/scr4.png
+2020-04-11 17:40:27.031857 - Thread-31 CREATED
+2020-04-11 17:40:27.037857 - Thread-31 STARTED 
+2020-04-11 17:40:27.128859 - Thread-31 BEGIN PARSE https://avsw.ru/images/octopus/scr6.png
+2020-04-11 17:40:27.171858 - Thread-32 CREATED
+2020-04-11 17:40:27.129860 - Thread-32 STARTED 
+2020-04-11 17:40:27.257863 - Thread-32 BEGIN PARSE https://avsw.ru/images/athena/scr5.png
+2020-04-11 17:40:27.352861 - Thread-33 CREATED
+2020-04-11 17:40:27.354858 - Thread-33 STARTED 
+2020-04-11 17:40:27.448857 - Thread-33 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2016
+2020-04-11 17:40:27.757860 - Thread-34 CREATED
+2020-04-11 17:40:27.764863 - Thread-34 STARTED 
+2020-04-11 17:40:27.908859 - Thread-34 BEGIN PARSE https://avsw.ru/images/athena/scr6.png
+2020-04-11 17:40:28.212869 - Thread-35 CREATED
+2020-04-11 17:40:28.328861 - Thread-35 BEGIN PARSE https://avsw.ru/images/prezentations/athena.pdf
+2020-04-11 17:40:28.180859 - Thread-35 STARTED 
+2020-04-11 17:40:28.593860 - Thread-36 CREATED
+2020-04-11 17:40:28.739860 - Thread-36 BEGIN PARSE https://avsw.ru/images/agreement/agreement.pdf
+2020-04-11 17:40:28.625858 - Thread-36 STARTED 
+2020-04-11 17:40:28.793859 - Thread-22 ADD /components/com_eventgallery/helpers/image.php
+2020-04-11 17:40:29.124858 - Thread-37 CREATED
+2020-04-11 17:40:29.124858 - Thread-37 STARTED 
+2020-04-11 17:40:29.236861 - Thread-37 BEGIN PARSE https://avsw.ru/images/prezentations/Athena_brochure.jpg
+2020-04-11 17:40:29.386858 - Thread-38 CREATED
+2020-04-11 17:40:29.659858 - Thread-38 BEGIN PARSE https://avsw.ru/images/prezentations/afina_presentation.pdf
+2020-04-11 17:40:29.379860 - Thread-38 STARTED 
+2020-04-11 17:40:29.941857 - Thread-39 CREATED
+2020-04-11 17:40:30.015862 - Thread-39 BEGIN PARSE https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:40:29.920859 - Thread-39 STARTED 
+2020-04-11 17:40:30.106864 - Thread-1 KILLED
+2020-04-11 17:40:30.152862 - Thread-2 KILLED
+2020-04-11 17:40:30.219862 - Thread-3 KILLED
+2020-04-11 17:40:30.563863 - Thread-4 KILLED
+2020-04-11 17:40:30.825854 - Thread-5 KILLED
+2020-04-11 17:40:30.987861 - Thread-6 KILLED
+2020-04-11 17:40:31.011859 - Thread-7 KILLED
+2020-04-11 17:40:31.101861 - Thread-8 KILLED
+2020-04-11 17:40:31.124859 - Thread-9 KILLED
+2020-04-11 17:40:31.185860 - Thread-10 KILLED
+2020-04-11 17:40:31.229863 - Thread-11 KILLED
+2020-04-11 17:40:31.277854 - Thread-12 KILLED
+2020-04-11 17:40:31.332859 - Thread-13 KILLED
+2020-04-11 17:40:31.388860 - Thread-14 KILLED
+2020-04-11 17:40:31.416863 - Thread-15 KILLED
+2020-04-11 17:40:31.453862 - Thread-16 KILLED
+2020-04-11 17:40:31.492858 - Thread-17 KILLED
+2020-04-11 17:40:31.523858 - Thread-18 KILLED
+2020-04-11 17:40:31.575859 - Thread-19 KILLED
+2020-04-11 17:40:31.608861 - Thread-20 KILLED
+2020-04-11 17:40:31.656859 - Thread-21 KILLED
+2020-04-11 17:40:31.684864 - Thread-22 KILLED
+2020-04-11 17:40:33.776955 - Thread-39 ERROR - HTTP Error 404: Not Found - https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:40:34.367954 - Thread-23 KILLED
+2020-04-11 17:40:42.154853 - Thread-24 KILLED
+2020-04-11 17:40:42.176841 - Thread-25 KILLED
+2020-04-11 17:40:42.759477 - Thread-26 KILLED
+2020-04-11 17:40:42.778037 - Thread-27 KILLED
+2020-04-11 17:40:42.813044 - Thread-28 KILLED
+2020-04-11 17:40:42.856039 - Thread-29 KILLED
+2020-04-11 17:40:42.881036 - Thread-30 KILLED
+2020-04-11 17:40:42.920036 - Thread-31 KILLED
+2020-04-11 17:40:42.947040 - Thread-32 KILLED
+2020-04-11 17:40:42.988035 - Thread-33 KILLED
+2020-04-11 17:40:43.032039 - Thread-34 KILLED
+2020-04-11 17:40:43.083039 - Thread-35 KILLED
+2020-04-11 17:40:43.138038 - Thread-36 KILLED
+2020-04-11 17:40:43.205033 - Thread-37 KILLED
+2020-04-11 17:40:43.239039 - Thread-38 KILLED
+2020-04-11 17:40:43.285038 - Thread-39 KILLED
+2020-04-11 17:40:43.365038 - Parse time 22.626485586166382 sec
+2020-04-11 17:41:31.946615 - START NEW SESSION
+2020-04-11 17:41:33.349337 - Thread-1 CREATED
+2020-04-11 17:41:33.384334 - Thread-1 BEGIN PARSE https://avsw.ru/services
+2020-04-11 17:41:33.369338 - Thread-1 STARTED 
+2020-04-11 17:41:33.456338 - Thread-2 CREATED
+2020-04-11 17:41:33.456338 - Thread-2 STARTED 
+2020-04-11 17:41:33.497335 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 17:41:33.566335 - Thread-3 CREATED
+2020-04-11 17:41:33.563336 - Thread-3 STARTED 
+2020-04-11 17:41:33.613333 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 17:41:33.679335 - Thread-4 CREATED
+2020-04-11 17:41:33.712337 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 17:41:33.695338 - Thread-4 STARTED 
+2020-04-11 17:41:33.844334 - Thread-5 CREATED
+2020-04-11 17:41:33.873339 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 17:41:33.932335 - Thread-5 STARTED 
+2020-04-11 17:41:34.041335 - Thread-6 CREATED
+2020-04-11 17:41:34.086339 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 17:41:34.040337 - Thread-6 STARTED 
+2020-04-11 17:41:34.216337 - Thread-7 CREATED
+2020-04-11 17:41:34.254338 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 17:41:34.211336 - Thread-7 STARTED 
+2020-04-11 17:41:34.351336 - Thread-8 CREATED
+2020-04-11 17:41:34.351336 - Thread-8 STARTED 
+2020-04-11 17:41:34.413336 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 17:41:34.441336 - Thread-9 CREATED
+2020-04-11 17:41:34.441336 - Thread-9 STARTED 
+2020-04-11 17:41:34.507338 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 17:41:34.552336 - Thread-10 CREATED
+2020-04-11 17:41:34.552336 - Thread-10 STARTED 
+2020-04-11 17:41:34.592337 - Thread-10 BEGIN PARSE https://avsw.ru/about
+2020-04-11 17:41:34.678336 - Thread-11 CREATED
+2020-04-11 17:41:34.677336 - Thread-11 STARTED 
+2020-04-11 17:41:34.737335 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 17:41:34.772336 - Thread-12 CREATED
+2020-04-11 17:41:34.771338 - Thread-12 STARTED 
+2020-04-11 17:41:34.825336 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 17:41:34.824335 - Thread-13 STARTED 
+2020-04-11 17:41:34.838336 - Thread-13 CREATED
+2020-04-11 17:41:34.911338 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 17:41:34.939338 - Thread-14 CREATED
+2020-04-11 17:41:34.967338 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 17:41:34.967338 - Thread-14 STARTED 
+2020-04-11 17:41:35.244338 - Thread-15 CREATED
+2020-04-11 17:41:35.302335 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 17:41:35.308335 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 17:41:35.362335 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 17:41:35.395335 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 17:41:35.413336 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 17:41:35.423336 - Thread-11 ADD /about/events/event/ImportSub2019
+2020-04-11 17:41:35.424336 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 17:41:35.467335 - Thread-11 ADD /about/events/event/InfoSecurity2018
+2020-04-11 17:41:35.397338 - Thread-15 STARTED 
+2020-04-11 17:41:35.507336 - Thread-9 ADD /images/octopus/scr3.png
+2020-04-11 17:41:35.516338 - Thread-8 ADD /images/athena/scr2.png
+2020-04-11 17:41:35.554336 - Thread-16 CREATED
+2020-04-11 17:41:35.555337 - Thread-11 ADD /about/events/event/InfoSecurity2017
+2020-04-11 17:41:35.554336 - Thread-15 ERROR - HTTP Error 404: Not Found - https://avsw.ru/ru/
+2020-04-11 17:41:35.554336 - Thread-16 STARTED 
+2020-04-11 17:41:35.741336 - Thread-17 CREATED
+2020-04-11 17:41:35.742338 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 17:41:35.742338 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 17:41:35.743336 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 17:41:35.743336 - Thread-14 ADD /images/agreement/agreement.pdf
+2020-04-11 17:41:35.743336 - Thread-11 ADD /about/events/event/InfoSecurity2016
+2020-04-11 17:41:35.791337 - Thread-17 BEGIN PARSE https://avsw.ru/images/prezentations/octopus.pdf
+2020-04-11 17:41:35.881335 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 17:41:35.882336 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 17:41:35.875333 - Thread-17 STARTED 
+2020-04-11 17:41:35.946337 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 17:41:35.950336 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 17:41:35.995336 - Thread-18 CREATED
+2020-04-11 17:41:35.996338 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 17:41:35.995336 - Thread-18 STARTED 
+2020-04-11 17:41:36.071338 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 17:41:36.091337 - Thread-19 CREATED
+2020-04-11 17:41:36.104336 - Thread-18 BEGIN PARSE https://avsw.ru/about/events/event/TBForum2020
+2020-04-11 17:41:36.099335 - Thread-19 STARTED 
+2020-04-11 17:41:36.251333 - Thread-19 BEGIN PARSE https://avsw.ru/images/athena/scr1.png
+2020-04-11 17:41:36.290335 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 17:41:36.289338 - Thread-20 STARTED 
+2020-04-11 17:41:36.307336 - Thread-20 CREATED
+2020-04-11 17:41:36.335336 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 17:41:36.374337 - Thread-21 CREATED
+2020-04-11 17:41:36.396339 - Thread-20 BEGIN PARSE https://avsw.ru/images/octopus/scr1.png
+2020-04-11 17:41:36.441336 - Thread-21 BEGIN PARSE https://avsw.ru/images/octopus/scr2.png
+2020-04-11 17:41:36.333335 - Thread-21 STARTED 
+2020-04-11 17:41:36.556336 - Thread-22 CREATED
+2020-04-11 17:41:36.556336 - Thread-22 STARTED 
+2020-04-11 17:41:36.627338 - Thread-22 BEGIN PARSE https://avsw.ru/about/events/event/ImportSub2019
+2020-04-11 17:41:36.627338 - Thread-23 STARTED 
+2020-04-11 17:41:36.689337 - Thread-23 CREATED
+2020-04-11 17:41:36.743339 - Thread-23 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2018
+2020-04-11 17:41:36.743339 - Thread-24 STARTED 
+2020-04-11 17:41:36.829337 - Thread-24 CREATED
+2020-04-11 17:41:36.890338 - Thread-25 CREATED
+2020-04-11 17:41:36.890338 - Thread-24 BEGIN PARSE https://avsw.ru/images/athena/scr2.png
+2020-04-11 17:41:36.998338 - Thread-25 BEGIN PARSE https://avsw.ru/images/octopus/scr3.png
+2020-04-11 17:41:36.890338 - Thread-25 STARTED 
+2020-04-11 17:41:37.262339 - Thread-26 CREATED
+2020-04-11 17:41:37.408338 - Thread-26 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2017
+2020-04-11 17:41:37.272333 - Thread-26 STARTED 
+2020-04-11 17:41:37.587335 - Thread-27 CREATED
+2020-04-11 17:41:37.621334 - Thread-27 STARTED 
+2020-04-11 17:41:37.688336 - Thread-27 BEGIN PARSE https://avsw.ru/images/octopus/scr4.png
+2020-04-11 17:41:37.786336 - Thread-28 CREATED
+2020-04-11 17:41:37.819339 - Thread-28 BEGIN PARSE https://avsw.ru/images/athena/scr3.png
+2020-04-11 17:41:37.893336 - Thread-22 ADD /components/com_eventgallery/helpers/image.php
+2020-04-11 17:41:37.780339 - Thread-28 STARTED 
+2020-04-11 17:41:38.181651 - Thread-29 CREATED
+2020-04-11 17:41:38.181651 - Thread-29 STARTED 
+2020-04-11 17:41:38.233651 - Thread-29 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2016
+2020-04-11 17:41:38.272652 - Thread-30 CREATED
+2020-04-11 17:41:38.234656 - Thread-30 STARTED 
+2020-04-11 17:41:38.331654 - Thread-30 BEGIN PARSE https://avsw.ru/images/agreement/agreement.pdf
+2020-04-11 17:41:38.386659 - Thread-31 CREATED
+2020-04-11 17:41:38.394652 - Thread-31 STARTED 
+2020-04-11 17:41:38.462652 - Thread-32 CREATED
+2020-04-11 17:41:38.466661 - Thread-31 BEGIN PARSE https://avsw.ru/images/athena/scr4.png
+2020-04-11 17:41:38.516648 - Thread-32 BEGIN PARSE https://avsw.ru/images/octopus/scr5.png
+2020-04-11 17:41:38.462652 - Thread-32 STARTED 
+2020-04-11 17:41:38.653652 - Thread-33 CREATED
+2020-04-11 17:41:38.652653 - Thread-33 STARTED 
+2020-04-11 17:41:38.723655 - Thread-33 BEGIN PARSE https://avsw.ru/images/octopus/scr6.png
+2020-04-11 17:41:38.784651 - Thread-34 CREATED
+2020-04-11 17:41:38.736655 - Thread-34 STARTED 
+2020-04-11 17:41:38.846654 - Thread-34 BEGIN PARSE https://avsw.ru/images/athena/scr5.png
+2020-04-11 17:41:39.189650 - Thread-35 CREATED
+2020-04-11 17:41:39.266651 - Thread-35 BEGIN PARSE https://avsw.ru/images/athena/scr6.png
+2020-04-11 17:41:39.170650 - Thread-35 STARTED 
+2020-04-11 17:41:39.718650 - Thread-36 CREATED
+2020-04-11 17:41:39.831653 - Thread-36 BEGIN PARSE https://avsw.ru/images/prezentations/athena.pdf
+2020-04-11 17:41:39.690650 - Thread-36 STARTED 
+2020-04-11 17:41:40.012649 - Thread-37 CREATED
+2020-04-11 17:41:40.065649 - Thread-37 STARTED 
+2020-04-11 17:41:40.368650 - Thread-37 BEGIN PARSE https://avsw.ru/images/prezentations/Athena_brochure.jpg
+2020-04-11 17:41:40.411652 - Thread-38 CREATED
+2020-04-11 17:41:40.608653 - Thread-38 BEGIN PARSE https://avsw.ru/images/prezentations/afina_presentation.pdf
+2020-04-11 17:41:40.366648 - Thread-38 STARTED 
+2020-04-11 17:41:40.986650 - Thread-39 CREATED
+2020-04-11 17:41:41.044650 - Thread-39 STARTED 
+2020-04-11 17:41:41.157653 - Thread-39 BEGIN PARSE https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:41:41.299648 - Thread-1 KILLED
+2020-04-11 17:41:41.543650 - Thread-2 KILLED
+2020-04-11 17:41:41.869652 - Thread-3 KILLED
+2020-04-11 17:41:41.882652 - Thread-39 ERROR - HTTP Error 404: Not Found - https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:41:42.084651 - Thread-4 KILLED
+2020-04-11 17:41:42.308651 - Thread-5 KILLED
+2020-04-11 17:41:42.395657 - Thread-6 KILLED
+2020-04-11 17:41:42.534650 - Thread-7 KILLED
+2020-04-11 17:41:42.684655 - Thread-8 KILLED
+2020-04-11 17:41:42.761654 - Thread-9 KILLED
+2020-04-11 17:41:43.087654 - Thread-10 KILLED
+2020-04-11 17:41:43.571649 - Thread-11 KILLED
+2020-04-11 17:41:43.807651 - Thread-12 KILLED
+2020-04-11 17:41:44.132651 - Thread-13 KILLED
+2020-04-11 17:41:44.724648 - Thread-14 KILLED
+2020-04-11 17:41:44.883650 - Thread-15 KILLED
+2020-04-11 17:41:45.023659 - Thread-16 KILLED
+2020-04-11 17:41:45.159653 - Thread-17 KILLED
+2020-04-11 17:41:45.308650 - Thread-18 KILLED
+2020-04-11 17:41:45.500660 - Thread-19 KILLED
+2020-04-11 17:41:45.602657 - Thread-20 KILLED
+2020-04-11 17:41:45.931650 - Thread-21 KILLED
+2020-04-11 17:41:46.031643 - Thread-22 KILLED
+2020-04-11 17:41:46.196652 - Thread-23 KILLED
+2020-04-11 17:41:46.345653 - Thread-24 KILLED
+2020-04-11 17:41:46.471655 - Thread-25 KILLED
+2020-04-11 17:41:46.509656 - Thread-26 KILLED
+2020-04-11 17:41:46.578653 - Thread-27 KILLED
+2020-04-11 17:41:46.623651 - Thread-28 KILLED
+2020-04-11 17:41:46.665652 - Thread-29 KILLED
+2020-04-11 17:41:46.731654 - Thread-30 KILLED
+2020-04-11 17:41:46.770651 - Thread-31 KILLED
+2020-04-11 17:41:46.797654 - Thread-32 KILLED
+2020-04-11 17:41:46.820653 - Thread-33 KILLED
+2020-04-11 17:41:46.863658 - Thread-34 KILLED
+2020-04-11 17:41:46.917651 - Thread-35 KILLED
+2020-04-11 17:41:46.948651 - Thread-36 KILLED
+2020-04-11 17:41:46.983655 - Thread-37 KILLED
+2020-04-11 17:41:47.013650 - Thread-38 KILLED
+2020-04-11 17:41:47.049652 - Thread-39 KILLED
+2020-04-11 17:41:47.095649 - Parse time 15.09603762626648 sec
+2020-04-11 17:58:29.482656 - START NEW SESSION
+2020-04-11 17:58:30.577653 - Thread-1 CREATED
+2020-04-11 17:58:30.577653 - Thread-1 STARTED 
+2020-04-11 17:58:30.645653 - Thread-1 BEGIN PARSE https://avsw.ru/services
+2020-04-11 17:58:30.694654 - Thread-2 CREATED
+2020-04-11 17:58:30.716650 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 17:58:30.699656 - Thread-2 STARTED 
+2020-04-11 17:58:30.841650 - Thread-3 CREATED
+2020-04-11 17:58:30.894655 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 17:58:30.853654 - Thread-3 STARTED 
+2020-04-11 17:58:30.969651 - Thread-4 CREATED
+2020-04-11 17:58:30.969651 - Thread-4 STARTED 
+2020-04-11 17:58:31.023650 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 17:58:31.041654 - Thread-5 CREATED
+2020-04-11 17:58:31.042652 - Thread-5 STARTED 
+2020-04-11 17:58:31.073654 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 17:58:31.215659 - Thread-6 CREATED
+2020-04-11 17:58:31.255654 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 17:58:31.254656 - Thread-6 STARTED 
+2020-04-11 17:58:31.412652 - Thread-7 STARTED 
+2020-04-11 17:58:31.432654 - Thread-7 CREATED
+2020-04-11 17:58:31.546651 - Thread-8 CREATED
+2020-04-11 17:58:31.549650 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 17:58:31.547652 - Thread-8 STARTED 
+2020-04-11 17:58:31.641658 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 17:58:31.641658 - Thread-9 STARTED 
+2020-04-11 17:58:31.659653 - Thread-9 CREATED
+2020-04-11 17:58:31.729652 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 17:58:31.786653 - Thread-10 CREATED
+2020-04-11 17:58:31.786653 - Thread-10 STARTED 
+2020-04-11 17:58:31.861658 - Thread-10 BEGIN PARSE https://avsw.ru/about
+2020-04-11 17:58:31.924651 - Thread-11 CREATED
+2020-04-11 17:58:31.942653 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 17:58:31.924651 - Thread-11 STARTED 
+2020-04-11 17:58:32.111653 - Thread-12 CREATED
+2020-04-11 17:58:32.134652 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 17:58:32.111653 - Thread-12 STARTED 
+2020-04-11 17:58:32.245652 - Thread-13 CREATED
+2020-04-11 17:58:32.238654 - Thread-13 STARTED 
+2020-04-11 17:58:32.606652 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 17:58:32.606652 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 17:58:32.607651 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 17:58:32.616652 - Thread-14 CREATED
+2020-04-11 17:58:32.647654 - Thread-8 ADD /images/athena/scr2.png
+2020-04-11 17:58:32.615653 - Thread-14 STARTED 
+/events/event/ImportSub2019
+2020-04-11 17:58:32.696652 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 17:58:32.696652 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 17:58:32.726654 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 17:58:32.762652 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 17:58:32.777654 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 17:58:32.779654 - Thread-11 ADD /about/events/event/InfoSecurity2018
+2020-04-11 17:58:32.841659 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 17:58:32.879654 - Thread-15 CREATED
+2020-04-11 17:58:32.931656 - Thread-9 ADD /images/octopus/scr3.png
+ecurity2017
+2020-04-11 17:58:32.955653 - Thread-11 ADD /about/events/event/InfoSecurity2016
+2020-04-11 17:58:32.956652 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 17:58:32.974659 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 17:58:32.935657 - Thread-15 STARTED 
+2020-04-11 17:58:33.055655 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 17:58:33.061654 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 17:58:33.104658 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 17:58:33.131653 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 17:58:33.151653 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 17:58:33.153651 - Thread-16 CREATED
+2020-04-11 17:58:33.241651 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 17:58:33.131653 - Thread-16 STARTED 
+2020-04-11 17:58:33.482654 - Thread-17 CREATED
+2020-04-11 17:58:33.537651 - Thread-14 ADD /images/agreement/agreement.pdf
+2020-04-11 17:58:33.593653 - Thread-17 BEGIN PARSE https://avsw.ru/images/athena/scr1.png
+2020-04-11 17:58:33.587652 - Thread-17 STARTED 
+2020-04-11 17:58:33.538652 - Thread-15 ERROR - HTTP Error 404: Not Found - https://avsw.ru/ru/
+2020-04-11 17:58:33.777652 - Thread-18 CREATED
+2020-04-11 17:58:33.778654 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 17:58:33.880650 - Thread-18 BEGIN PARSE https://avsw.ru/images/prezentations/octopus.pdf
+2020-04-11 17:58:33.776652 - Thread-18 STARTED 
+2020-04-11 17:58:33.967658 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 17:58:34.324649 - Thread-19 CREATED
+2020-04-11 17:58:34.403655 - Thread-19 BEGIN PARSE https://avsw.ru/about/events/event/TBForum2020
+2020-04-11 17:58:34.244652 - Thread-19 STARTED 
+2020-04-11 17:58:34.860652 - Thread-20 CREATED
+2020-04-11 17:58:34.953654 - Thread-20 BEGIN PARSE https://avsw.ru/images/athena/scr2.png
+2020-04-11 17:58:34.832655 - Thread-20 STARTED 
+2020-04-11 17:58:35.202652 - Thread-21 CREATED
+2020-04-11 17:58:35.304651 - Thread-21 BEGIN PARSE https://avsw.ru/about/events/event/ImportSub2019
+2020-04-11 17:58:35.179655 - Thread-21 STARTED 
+2020-04-11 17:58:35.978653 - Thread-22 CREATED
+2020-04-11 17:58:36.054653 - Thread-19 ADD /components/com_eventgallery/helpers/image.php
+2020-04-11 17:58:36.118658 - Thread-22 BEGIN PARSE https://avsw.ru/images/octopus/scr1.png
+2020-04-11 17:58:36.038650 - Thread-22 STARTED 
+2020-04-11 17:58:36.464652 - Thread-23 CREATED
+2020-04-11 17:58:36.448650 - Thread-23 STARTED 
+2020-04-11 17:58:36.550659 - Thread-23 BEGIN PARSE https://avsw.ru/images/athena/scr3.png
+2020-04-11 17:58:36.641653 - Thread-24 CREATED
+2020-04-11 17:58:36.641653 - Thread-24 STARTED 
+2020-04-11 17:58:36.773650 - Thread-24 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2018
+2020-04-11 17:58:36.818651 - Thread-25 CREATED
+2020-04-11 17:58:36.774654 - Thread-25 STARTED 
+2020-04-11 17:58:36.873654 - Thread-25 BEGIN PARSE https://avsw.ru/images/octopus/scr2.png
+2020-04-11 17:58:36.912653 - Thread-26 CREATED
+2020-04-11 17:58:36.873654 - Thread-26 STARTED 
+2020-04-11 17:58:36.988652 - Thread-26 BEGIN PARSE https://avsw.ru/images/athena/scr4.png
+2020-04-11 17:58:37.125656 - Thread-27 CREATED
+2020-04-11 17:58:37.202651 - Thread-27 BEGIN PARSE https://avsw.ru/images/octopus/scr3.png
+2020-04-11 17:58:37.160650 - Thread-27 STARTED 
+2020-04-11 17:58:37.397650 - Thread-28 CREATED
+2020-04-11 17:58:37.440653 - Thread-28 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2017
+2020-04-11 17:58:37.438651 - Thread-28 STARTED 
+2020-04-11 17:58:37.758654 - Thread-29 CREATED
+2020-04-11 17:58:37.757652 - Thread-29 STARTED 
+2020-04-11 17:58:37.995655 - Thread-29 BEGIN PARSE https://avsw.ru/images/athena/scr5.png
+2020-04-11 17:58:38.085651 - Thread-30 CREATED
+2020-04-11 17:58:38.222650 - Thread-30 BEGIN PARSE https://avsw.ru/about/events/event/InfoSecurity2016
+2020-04-11 17:58:38.089655 - Thread-30 STARTED 
+2020-04-11 17:58:38.455651 - Thread-31 CREATED
+2020-04-11 17:58:38.455651 - Thread-31 STARTED 
+2020-04-11 17:58:38.521651 - Thread-31 BEGIN PARSE https://avsw.ru/images/octopus/scr4.png
+2020-04-11 17:58:38.605650 - Thread-32 CREATED
+2020-04-11 17:58:38.719653 - Thread-32 BEGIN PARSE https://avsw.ru/images/athena/scr6.png
+2020-04-11 17:58:38.600652 - Thread-32 STARTED 
+2020-04-11 17:58:39.389651 - Thread-33 CREATED
+2020-04-11 17:58:39.543655 - Thread-33 BEGIN PARSE https://avsw.ru/images/prezentations/athena.pdf
+2020-04-11 17:58:39.486653 - Thread-33 STARTED 
+2020-04-11 17:58:40.031646 - Thread-34 CREATED
+2020-04-11 17:58:40.083653 - Thread-34 BEGIN PARSE https://avsw.ru/images/octopus/scr5.png
+2020-04-11 17:58:40.049651 - Thread-34 STARTED 
+2020-04-11 17:58:40.786645 - Thread-35 CREATED
+2020-04-11 17:58:40.919657 - Thread-35 BEGIN PARSE https://avsw.ru/images/octopus/scr6.png
+2020-04-11 17:58:40.901652 - Thread-35 STARTED 
+2020-04-11 17:58:41.257649 - Thread-36 CREATED
+2020-04-11 17:58:41.302654 - Thread-36 BEGIN PARSE https://avsw.ru/images/agreement/agreement.pdf
+2020-04-11 17:58:41.258653 - Thread-36 STARTED 
+2020-04-11 17:58:41.503653 - Thread-37 CREATED
+2020-04-11 17:58:41.507654 - Thread-37 STARTED 
+2020-04-11 17:58:41.548654 - Thread-37 BEGIN PARSE https://avsw.ru/images/prezentations/Athena_brochure.jpg
+2020-04-11 17:58:41.602652 - Thread-38 CREATED
+2020-04-11 17:58:41.602652 - Thread-38 STARTED 
+2020-04-11 17:58:41.697653 - Thread-38 BEGIN PARSE https://avsw.ru/images/prezentations/afina_presentation.pdf
+2020-04-11 17:58:41.747655 - Thread-39 CREATED
+2020-04-11 17:58:41.697653 - Thread-39 STARTED 
+2020-04-11 17:58:41.894654 - Thread-39 BEGIN PARSE https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:58:41.886652 - Thread-1 KILLED
+2020-04-11 17:58:42.059655 - Thread-2 KILLED
+2020-04-11 17:58:42.150652 - Thread-3 KILLED
+2020-04-11 17:58:42.230653 - Thread-4 KILLED
+2020-04-11 17:58:42.404652 - Thread-39 ERROR - HTTP Error 404: Not Found - https://avsw.ru/components/com_eventgallery/helpers/image.php
+2020-04-11 17:58:42.404652 - Thread-5 KILLED
+2020-04-11 17:58:42.520655 - Thread-6 KILLED
+2020-04-11 17:58:42.589653 - Thread-7 KILLED
+2020-04-11 17:58:42.671654 - Thread-8 KILLED
+2020-04-11 17:58:42.740651 - Thread-9 KILLED
+2020-04-11 17:58:42.816650 - Thread-10 KILLED
+2020-04-11 17:58:42.873652 - Thread-11 KILLED
+2020-04-11 17:58:42.945652 - Thread-12 KILLED
+2020-04-11 17:58:43.001653 - Thread-13 KILLED
+2020-04-11 17:58:43.096652 - Thread-14 KILLED
+2020-04-11 17:58:43.190653 - Thread-15 KILLED
+2020-04-11 17:58:43.242649 - Thread-16 KILLED
+2020-04-11 17:58:43.331654 - Thread-17 KILLED
+2020-04-11 17:58:43.379657 - Thread-18 KILLED
+2020-04-11 17:58:43.417655 - Thread-19 KILLED
+2020-04-11 17:58:43.456652 - Thread-20 KILLED
+2020-04-11 17:58:43.528655 - Thread-21 KILLED
+2020-04-11 17:58:43.574651 - Thread-22 KILLED
+2020-04-11 17:58:43.616655 - Thread-23 KILLED
+2020-04-11 17:58:43.708652 - Thread-24 KILLED
+2020-04-11 17:58:43.834650 - Thread-25 KILLED
+2020-04-11 17:58:43.911656 - Thread-26 KILLED
+2020-04-11 17:58:44.075651 - Thread-27 KILLED
+2020-04-11 17:58:44.167654 - Thread-28 KILLED
+2020-04-11 17:58:44.235652 - Thread-29 KILLED
+2020-04-11 17:58:44.366652 - Thread-30 KILLED
+2020-04-11 17:58:44.441650 - Thread-31 KILLED
+2020-04-11 17:58:44.542652 - Thread-32 KILLED
+2020-04-11 17:58:44.600657 - Thread-33 KILLED
+2020-04-11 17:58:44.670656 - Thread-34 KILLED
+2020-04-11 17:58:44.758649 - Thread-35 KILLED
+2020-04-11 17:58:44.844650 - Thread-36 KILLED
+2020-04-11 17:58:44.925654 - Thread-37 KILLED
+2020-04-11 17:58:46.658717 - Thread-38 KILLED
+2020-04-11 17:58:46.685708 - Thread-39 KILLED
+2020-04-11 17:58:46.720713 - Parse time 17.147064447402954 sec
+2020-04-11 17:58:46.785714 - 
+        /-contacts
+       |
+       |           /-ImportSub2019
+       |          |
+       |          |--InfoSecurity2016
+       |          |
+       |-eventsevent-InfoSecurity2017
+   /about         |
+  |    |          |--InfoSecurity2018
+  |    |          |
+  |    |           \-TBForum2020
+  |    |
+  |    |--sertifikaty
+  |    |
+  |     \-vakansii
+  |
+  |-componentcontentarticle2-uncategorised-4-athena
+  |
+  |-componentscom_eventgalleryhelpers-image.php
+  |
+  |      /agreement-agreement.pdf
+  |     |
+  |     |      /-scr1.png
+  |     |     |
+  |     |     |--scr2.png
+  |     |     |
+  |     |     |--scr3.png
+  |     |-athena
+  |     |     |--scr4.png
+  |-images    |
+--|     |     |--scr5.png
+  |     |     |
+  |     |      \-scr6.png
+  |     |
+  |     |--octopus
+  |     |
+  |     |             /-Athena_brochure.jpg
+  |     |            |
+  |     |            |--afina_presentation.pdf
+  |      \prezentations
+  |                  |--athena.pdf
+  |                  |
+  |                   \-octopus.pdf
+  |
+  |--products
+  |
+  |--ru
+  |
+  |        /-analysis-of-malware
+  |       |
+  |       |--documents-development
+  |       |
+  |       |--improving-information-security-system
+   \services
+          |--information-security-audit
+          |
+          |--investigation-of-security-incidents
+          |
+           \-protecting-confidential-information-and-personal-data
+2020-04-11 19:19:39.716834 - START NEW SESSION
+2020-04-11 19:19:42.260964 - Thread-1 CREATED
+2020-04-11 19:19:42.259961 - Thread-1 STARTED 
+2020-04-11 19:19:42.287965 - Thread-1 BEGIN PARSE https://avsw.ru/services
+2020-04-11 19:19:42.356965 - Thread-2 CREATED
+2020-04-11 19:19:42.286963 - Thread-2 STARTED 
+2020-04-11 19:19:42.416963 - Thread-2 BEGIN PARSE https://avsw.ru/services/information-security-audit
+2020-04-11 19:19:42.498975 - Thread-3 CREATED
+2020-04-11 19:19:42.498975 - Thread-3 STARTED 
+2020-04-11 19:19:42.522967 - Thread-3 BEGIN PARSE https://avsw.ru/services/improving-information-security-system
+2020-04-11 19:19:42.585966 - Thread-4 CREATED
+2020-04-11 19:19:42.582966 - Thread-4 STARTED 
+2020-04-11 19:19:42.655963 - Thread-4 BEGIN PARSE https://avsw.ru/services/protecting-confidential-information-and-personal-data
+2020-04-11 19:19:42.717964 - Thread-5 CREATED
+2020-04-11 19:19:42.631968 - Thread-5 STARTED 
+2020-04-11 19:19:42.842966 - Thread-5 BEGIN PARSE https://avsw.ru/services/investigation-of-security-incidents
+2020-04-11 19:19:42.898962 - Thread-6 CREATED
+2020-04-11 19:19:42.892961 - Thread-6 STARTED 
+2020-04-11 19:19:42.958963 - Thread-7 CREATED
+2020-04-11 19:19:42.965964 - Thread-6 BEGIN PARSE https://avsw.ru/services/analysis-of-malware
+2020-04-11 19:19:42.959964 - Thread-7 STARTED 
+2020-04-11 19:19:43.020972 - Thread-7 BEGIN PARSE https://avsw.ru/services/documents-development
+2020-04-11 19:19:43.074961 - Thread-8 CREATED
+2020-04-11 19:19:43.075962 - Thread-8 STARTED 
+2020-04-11 19:19:43.182964 - Thread-8 BEGIN PARSE https://avsw.ru/products/athena
+2020-04-11 19:19:43.284964 - Thread-9 CREATED
+2020-04-11 19:19:43.424964 - Thread-9 BEGIN PARSE https://avsw.ru/products/octopus
+2020-04-11 19:19:43.277965 - Thread-9 STARTED 
+2020-04-11 19:19:43.617962 - Thread-10 CREATED
+2020-04-11 19:19:43.617962 - Thread-10 STARTED 
+2020-04-11 19:19:43.635960 - Thread-10 BEGIN PARSE https://avsw.ru/about
+2020-04-11 19:19:43.635960 - Thread-11 STARTED 
+2020-04-11 19:19:43.661965 - Thread-11 CREATED
+2020-04-11 19:19:43.672961 - Thread-11 BEGIN PARSE https://avsw.ru/about/events
+2020-04-11 19:19:43.672961 - Thread-12 CREATED
+2020-04-11 19:19:43.716963 - Thread-12 BEGIN PARSE https://avsw.ru/about/sertifikaty
+2020-04-11 19:19:43.672961 - Thread-12 STARTED 
+2020-04-11 19:19:43.863967 - Thread-13 CREATED
+2020-04-11 19:19:43.855957 - Thread-13 STARTED 
+2020-04-11 19:19:43.891962 - Thread-13 BEGIN PARSE https://avsw.ru/about/vakansii
+2020-04-11 19:19:43.922962 - Thread-14 CREATED
+2020-04-11 19:19:43.920966 - Thread-14 STARTED 
+2020-04-11 19:19:43.959966 - Thread-14 BEGIN PARSE https://avsw.ru/about/contacts
+2020-04-11 19:19:43.992958 - Thread-15 CREATED
+2020-04-11 19:19:43.996965 - Thread-15 STARTED 
+2020-04-11 19:19:44.023970 - Thread-15 BEGIN PARSE https://avsw.ru/ru/
+2020-04-11 19:19:44.066963 - Thread-16 CREATED
+2020-04-11 19:19:44.066963 - Thread-16 STARTED 
+2020-04-11 19:19:44.098963 - Thread-16 BEGIN PARSE https://avsw.ru/component/content/article/2-uncategorised/4-athena
+2020-04-11 19:19:44.266956 - Thread-1 KILLED
+2020-04-11 19:19:44.388964 - Thread-9 ADD /images/prezentations/octopus.pdf
+2020-04-11 19:19:44.388964 - Thread-11 ADD /about/events/event/TBForum2020
+2020-04-11 19:19:44.389962 - Thread-8 ADD /images/athena/scr1.png
+2020-04-11 19:19:44.389962 - Thread-2 KILLED
+2020-04-11 19:19:44.389962 - Thread-15 ERROR - HTTP Error 404: Not Found - https://avsw.ru/ru/
+2020-04-11 19:19:44.427963 - Thread-9 ADD /images/octopus/scr1.png
+2020-04-11 19:19:44.432963 - Thread-8 ADD /images/athena/scr2.png
+rtSub2019
+2020-04-11 19:19:44.432963 - Thread-3 KILLED
+2020-04-11 19:19:44.561960 - Thread-9 ADD /images/octopus/scr2.png
+2020-04-11 19:19:44.896963 - Thread-16 ADD /images/prezentations/Athena_brochure.jpg
+2020-04-11 19:19:44.896963 - Thread-14 ADD /images/agreement/agreement.pdf
+2020-04-11 19:19:44.896963 - Thread-8 ADD /images/athena/scr3.png
+2020-04-11 19:19:44.897960 - Thread-9 ADD /images/octopus/scr3.png
+ecurity2018
+2020-04-11 19:19:44.897960 - Thread-4 KILLED
+2020-04-11 19:19:44.927961 - Thread-8 ADD /images/athena/scr4.png
+2020-04-11 19:19:44.927961 - Thread-11 ADD /about/events/event/InfoSecurity2017
+2020-04-11 19:19:44.928963 - Thread-9 ADD /images/octopus/scr4.png
+2020-04-11 19:19:44.929963 - Thread-16 ADD /images/prezentations/afina_presentation.pdf
+2020-04-11 19:19:44.927961 - Thread-5 KILLED
+2020-04-11 19:19:44.957963 - Thread-8 ADD /images/athena/scr5.png
+2020-04-11 19:19:44.959964 - Thread-11 ADD /about/events/event/InfoSecurity2016
+2020-04-11 19:19:44.959964 - Thread-9 ADD /images/octopus/scr5.png
+2020-04-11 19:19:44.958961 - Thread-6 KILLED
+2020-04-11 19:19:44.983964 - Thread-8 ADD /images/athena/scr6.png
+2020-04-11 19:19:44.983964 - Thread-7 KILLED
+2020-04-11 19:19:45.033965 - Thread-8 ADD /images/prezentations/athena.pdf
+2020-04-11 19:19:45.039966 - Thread-9 ADD /images/octopus/scr6.png
+2020-04-11 19:19:45.057963 - Thread-8 KILLED
+2020-04-11 19:19:45.101965 - Thread-9 KILLED
+2020-04-11 19:19:45.130962 - Thread-10 KILLED
+2020-04-11 19:19:45.195960 - Thread-11 KILLED
+2020-04-11 19:19:45.221965 - Thread-12 KILLED
+2020-04-11 19:19:45.285964 - Thread-13 KILLED
+2020-04-11 19:19:45.322966 - Thread-14 KILLED
+2020-04-11 19:19:45.364964 - Thread-15 KILLED
+2020-04-11 19:19:45.396966 - Thread-16 KILLED
+2020-04-11 19:19:45.444970 - Parse time 5.696130990982056 sec
+2020-04-11 19:19:45.524958 - 
+        /-contacts
+       |
+       |           /-ImportSub2019
+       |          |
+       |          |--InfoSecurity2016
+       |          |
+       |-eventsevent-InfoSecurity2017
+   /about         |
+  |    |          |--InfoSecurity2018
+  |    |          |
+  |    |           \-TBForum2020
+  |    |
+  |    |--sertifikaty
+  |    |
+  |     \-vakansii
+  |
+  |-componentcontentarticle2-uncategorised-4-athena
+  |
+  |      /agreement-agreement.pdf
+  |     |
+  |     |      /-scr1.png
+  |     |     |
+  |     |     |--scr2.png
+  |     |     |
+  |     |     |--scr3.png
+  |     |-athena
+  |     |     |--scr4.png
+  |-images    |
+  |     |     |--scr5.png
+--|     |     |
+  |     |      \-scr6.png
+  |     |
+  |     |--octopus
+  |     |
+  |     |             /-Athena_brochure.jpg
+  |     |            |
+  |     |            |--afina_presentation.pdf
+  |      \prezentations
+  |                  |--athena.pdf
+  |                  |
+  |                   \-octopus.pdf
+  |
+  |--products
+  |
+  |--ru
+  |
+  |        /-analysis-of-malware
+  |       |
+  |       |--documents-development
+  |       |
+  |       |--improving-information-security-system
+   \services
+          |--information-security-audit
+          |
+          |--investigation-of-security-incidents
+          |
+           \-protecting-confidential-information-and-personal-data

@@ -2,4 +2,4 @@
 venv/*
 __pycache__/*
 parsed_links.txt
-# test_thread/*
+*.log
