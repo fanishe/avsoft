@@ -2,14 +2,23 @@ from parse_link import Parse_Link
 from trees import My_Tree
 from threads import My_Thread, Logger
 import time
-    
-        
+import sys
+
+
+var = sys.argv[1:]
+
 def main():
     # объект для записи логов и вывода в консоль
     log = Logger()
     log.write_log(f'START NEW SESSION')
     
-    link = "https://avsw.ru"
+    # принимает ссылку через терминал
+    # если ничего нет берет основной урл
+    if not var:
+        link = "https://avsw.ru"
+    else:
+        link = var[0]
+
     # Создаем Объект, который парсит главную страницу
     p_link = Parse_Link(link)
     # Список с потоками
