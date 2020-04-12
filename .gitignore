@@ -2,4 +2,5 @@
 venv/*
 __pycache__/*
 parsed_links.txt
-*.log
+parser.log
+parsed_links.txt
