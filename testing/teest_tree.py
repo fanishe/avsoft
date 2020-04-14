@@ -29,12 +29,13 @@ def add_ancestor(tree, l_list):
             node.add_child(name=z)
 
 def make_list(links):
-    links_l = []
+    # links_l = []
     for l in links:
         l = l.split('/')
-        links_l.append( l[1:])
+        # links_l.append( l[1:])
         # print(l[1:])
-    return links_l
+    # return links_l
+        yield l
 
 def lets_start(temp_list):
     tree = Tree(format=1)

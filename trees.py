@@ -5,7 +5,7 @@ class My_Tree(object):
     Это самый интересный объект
         генериррует дерево в консоль или в файл или в GUI
     - Принимает файл сгенерированный Parse_Link()
-    - Читает и парсит строки делая из них список
+    - Читает и парсит строки делая из них генератор
     - Генерирует дерево
         * Если ссылки
                 /about
@@ -27,7 +27,6 @@ class My_Tree(object):
     """
     def __init__(self):
         self.tree = Tree(format = 1)
-        self.temp_list = []
 
     def __str__(self):
         return self.tree.get_ascii(show_internal=True)
@@ -38,11 +37,11 @@ class My_Tree(object):
 
             for l in links:
                 l = l.split('/')
-                self.temp_list.append( l[1:])
+                yield l
 
-    def generate_tree(self):
+    def generate_tree(self, generated_list):
         # генерация дерева
-        for l_links in self.temp_list:
+        for l_links in generated_list:
             if l_links:
 
                 if l_links[0] not in self.tree:

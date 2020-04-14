@@ -53,14 +53,13 @@ def main():
     
     # создание объекта который будет генерировать карту сайта
     tree = My_Tree()
-    # чтение из файла
-    tree.read_file(p_link.filename)
+    # чтение из файла и создание генератора
+    generator = tree.read_file(p_link.filename)
 
     # генерация дерева
-    tree.generate_tree()
+    tree.generate_tree(generator)
     # запись дерева в лог и вывод в консоль
     log.write_log(tree)
-    # print(tree)
     # так же есть возможность вывод на экран с помощью GUI
     tree.show_me()
 
