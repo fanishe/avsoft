@@ -10,10 +10,31 @@ class Logger(object):
         self.filename = 'parser.log'
         self.onprint = onprint
 
-    def write_log(self, log):
+    def write_to_log(self, level, log):
 
         with open(self.filename, 'a+') as f:
-            f.write(f'{datetime.now()} - {log}\n')
+            log = f'{datetime.now()} {level} - {log}\n'
+            f.write(log)
             
             if self.onprint:
-                print(f'{log}\n')
+                print(log)
+
+    def warning(self, log):
+        warn = '[WARNING]'
+        self.write_to_log(warn, log)
+    
+    def debug(self, log):
+        warn = '[DEBUG]'
+        self.write_to_log(warn, log)
+
+    def info(self, log):
+        warn = '[INFO]'
+        self.write_to_log(warn, log)
+
+    def error(self, log):
+        warn = '[ERROR]'
+        self.write_to_log(warn, log)
+
+    def critical(self, log):
+        warn = '[CRITICAL]'
+        self.write_to_log(warn, log)

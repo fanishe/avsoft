@@ -1,5 +1,0 @@
-Запуск асинка
-
-asyncio.run(coro()) можно поместить только одну корутину
-await
-asyncio.create_task(coro())

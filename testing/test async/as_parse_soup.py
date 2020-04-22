@@ -75,14 +75,23 @@ async def extract_local_links(html, root_domain, local_only=True):
 async def main(url):
     async with aiohttp.ClientSession() as session:
         start_time = time.time()
+        # print('START - ', start_time)
         parsed_url = urlparse(url)
+        # print('parsed_url ', parsed_url)
         root_domain = parsed_url.netloc
+        # print('root_domain ', root_domain)
+
         domain = parsed_url.geturl() # includes trailing /
-        #print(domain)
+        print('url ', url)
+        print('domain ', domain)
+        print()
+
         html = await fetch(session, url)
         paths = await extract_local_links(html, root_domain)
-        #print(paths)
+        # print('=== paths ===')
+        print(paths)
         words = []
+
         for path in list(set(paths)):
             start_ = time.time()
             post_url  = domain + path
@@ -91,7 +100,9 @@ async def main(url):
             string = await process_string(text)
             sub_words = string.split()
             words += sub_words
+
             print(time.time() - start_, "seconds")
+
         word_freq = Counter(words)
         print("Entire request took", time.time()-start_time, "seconds")
         print(word_freq.most_common(10))

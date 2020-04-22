@@ -2,7 +2,6 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from logs import Logger
-# from datetime import datetime
 
 
 class Parse_Link(object):
@@ -30,15 +29,14 @@ class Parse_Link(object):
     def make_links(self):
         log = Logger(onprint=False)
 
-        log.write_log(f'start urlopen {self.url}')
+        log.debug(f'start urlopen {self.url}')
         
         page = urlopen(self.url)
         hostname = urlparse(self.url).hostname
 
-        log.write_log(f'start soup {self.url}')
+        log.info(f'start soup {self.url}')
         soup = BeautifulSoup(page, 'html.parser')
 
-        # log.write_log(f' ')
         # поиск ссылок
         all_links = soup.find_all('a')
 
@@ -65,9 +63,7 @@ class Parse_Link(object):
                 if l not in self.list_links and l != 'zero' and len(l) > 1:
                     self.list_links.append(l)
 
-        log.write_log(f'finish make_links in {self.url}')
-
-
+        log.info(f'finish make_links in {self.url}')
 
     def write_to_file(self):
         # запись в файл
