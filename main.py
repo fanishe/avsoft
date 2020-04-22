@@ -1,6 +1,7 @@
 from parse_link import Parse_Link
 from trees import My_Tree
-from threads import My_Thread, Logger
+from threads import My_Thread
+from logs import Logger
 import time
 import sys
 
@@ -10,7 +11,7 @@ var = sys.argv[1:]
 def main():
     # объект для записи логов и вывода в консоль
     log = Logger()
-    log.write_log(f'START NEW SESSION')
+    log.info(f'START NEW SESSION')
     
     # принимает ссылку через терминал
     # если ничего нет берет основной урл
@@ -36,15 +37,15 @@ def main():
         thread_list.append(t)
         t.start()
 
-        log.write_log(f'{t.getName()} STARTED ')
+        log.info(f'{t.getName()} STARTED ')
     # заканчиваем все потоки
     for t in thread_list:
         t.join()
-        log.write_log(f'{t.getName()} KILLED')
+        log.info(f'{t.getName()} KILLED')
 
     end = time.time()
     # записываю общее время работы парсеров
-    log.write_log(f'Parse time {end - start} sec')
+    log.info(f'Parse time {end - start} sec')
 
     # сортировка в алфавитном порядке
     p_link.list_links.sort()
@@ -59,7 +60,7 @@ def main():
     # генерация дерева
     tree.generate_tree(generator)
     # запись дерева в лог и вывод в консоль
-    log.write_log(tree)
+    log.info(tree)
     # так же есть возможность вывод на экран с помощью GUI
     tree.show_me()
 

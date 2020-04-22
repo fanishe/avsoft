@@ -1,6 +1,7 @@
 from threading import Thread
 from parse_link import Parse_Link
 from datetime import datetime
+from logs import Logger
 
 
 class My_Thread(Thread):
@@ -37,9 +38,9 @@ class My_Thread(Thread):
         """
         log = Logger(onprint=False)
         try:
-            log.write_log(f'{self.getName()} CREATED')
+            log.debug(f'{self.getName()} CREATED')
             url = f'{ self.main_url }{ self.link}'
-            log.write_log(f'{self.getName()} BEGIN PARSE {url}')
+            log.info(f'{self.getName()} BEGIN PARSE {url}')
             
             parser = Parse_Link(url)
             parser.make_links()
@@ -49,27 +50,8 @@ class My_Thread(Thread):
             for link in links:
                 if link not in self.main_links:
                     self.main_links.append(link)
-                    log.write_log(f'{self.getName()} ADD {link}')
+                    log.info(f'{self.getName()} ADD {link}')
 
         except Exception as e:
             log = Logger()
-            log.write_log(f'{self.getName()} ERROR - {e} - { self.main_url }{ self.link}')
-
-
-class Logger(object):
-    """
-    простой объект для ведения логов
-    если onprint TRUE:
-        в консоль ничего не выводит
-    """
-    def __init__(self, onprint = True):
-        self.filename = 'parser.log'
-        self.onprint = onprint
-
-    def write_log(self, log):
-
-        with open(self.filename, 'a+') as f:
-            f.write(f'{datetime.now()} - {log}\n')
-            
-            if self.onprint:
-                print(f'{log}\n')
+            log.error(f'{self.getName()} {e} - { self.main_url }{ self.link}')

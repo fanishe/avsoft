@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+from logs import Logger
 
 
 class Parse_Link(object):
@@ -26,9 +27,16 @@ class Parse_Link(object):
         self.social = ['vk', 'facebook', 'linkedin', 'twitter', 'callto', 'skype', 'tel', '#']
 
     def make_links(self):
+        log = Logger(onprint=False)
+
+        log.debug(f'start urlopen {self.url}')
+        
         page = urlopen(self.url)
         hostname = urlparse(self.url).hostname
+
+        log.info(f'start soup {self.url}')
         soup = BeautifulSoup(page, 'html.parser')
+
         # поиск ссылок
         all_links = soup.find_all('a')
 
@@ -54,6 +62,8 @@ class Parse_Link(object):
                 # сохраняю в список
                 if l not in self.list_links and l != 'zero' and len(l) > 1:
                     self.list_links.append(l)
+
+        log.info(f'finish make_links in {self.url}')
 
     def write_to_file(self):
         # запись в файл
