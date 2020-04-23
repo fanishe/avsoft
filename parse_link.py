@@ -12,7 +12,8 @@ class Parse_Link(object):
             * находит все бъекты <a></a>
             * забирает href
             * если в списке нет этой ссылки
-              и эта ссылка не ведет в соцсети 
+              и эта ссылка не ведет в соцсети
+              и не наружняя ссылка
               и не текстовый якорь:
                     убирает параметры после ?
                     убирает домен
@@ -59,6 +60,10 @@ class Parse_Link(object):
                     if s in l :
                         l = 'zero'
 
+                # Проверяет внутренняя ли это ссылка
+                if l.startswith('http') and hostname not in l:
+                    l = 'zero'
+                    
                 # сохраняю в список
                 if l not in self.list_links and l != 'zero' and len(l) > 1:
                     self.list_links.append(l)

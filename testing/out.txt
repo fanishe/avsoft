@@ -1,105 +1,95 @@
-        /--- contacts
-       |
-       |---- events
-       |
-       |---- events
-       |
-       |---- event
-       |
-       |---- ImportSub2019
-       |
-       |---- events
-       |
-       |---- event
-       |
-       |---- InfoSecurity2016
-       |
-       |---- events
-       |
-   /about--- event
-  |    |
-  |    |---- InfoSecurity2017
-  |    |
-  |    |---- events
-  |    |
-  |    |---- event
-  |    |
-  |    |---- InfoSecurity2018
-  |    |
-  |    |---- events
-  |    |
-  |    |---- event
-  |    |
-  |    |---- TBForum2020
-  |    |
-  |    |---- sertifikaty
-  |    |
-  |     \--- vakansii
---|
-  |         /--- content
-  |        |
-  |        |---- article
-  |-component
-  |        |---- 2-uncategorised
-  |        |
-  |         \--- 4-athena
-  |
-  |          /--- com_eventgallery
-  |         |
-  |-components--- helpers
-  |         |
-  |          \--- image.php
-  |
-  |      /--- agreement
-  |     |
-  |     |---- agreement.pdf
-  |     |
-  |     |---- athena
-   \images
-        |---- scr1.png
-        |
-        |---- athena
-        |
-         \--- scr2.png
+None
+begin run() 
+begin run()
+begin run()
+begin run()
+begin run()
+begin run()
+begin run()
+begin run()
+begin run()
+try url -  https://avsw.ru/component/content/article/2-uncategorised/4-athena
+try url -  https://avsw.ru/services/protecting-confidential-information-and-personal-data
+try url -  https://avsw.ru/services/analysis-of-malware
+try url -  https://avsw.ru/products/athena
+begin run()
+try url -  https://avsw.ru/about
+try url -  https://avsw.ru/about/sertifikaty
+begin run()
+try url -  https://avsw.ru/services
+begin run()
+try url -  https://avsw.ru/services/improving-information-security-system
+begin run()
+begin run() 
+try url -  https://avsw.ru/about/vakansii
+try url -  https://avsw.ru/services/information-security-audit
+begin run() 
+try url -  https://avsw.ru/services/documents-development
+try url -  https://avsw.ru/about/contacts
+begin run() 
+try url -  https://avsw.ru/services/investigation-of-security-incidents
+try url -  https://avsw.ru/ru/
+try url -  https://avsw.ru/products/octopus
+try url -  https://avsw.ru/about/events
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+returned links
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/component/content/article/2-uncategorised/4-athena']
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+returned links
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/images/prezentations/Athena_brochure.jpg', '/images/prezentations/afina_presentation.pdf']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+HTTP Error 404: Not Found
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/about/events/event/TBForum2020', '/about/events/event/ImportSub2019', '/about/events/event/InfoSecurity2018', '/about/events/event/InfoSecurity2017', '/about/events/event/InfoSecurity2016']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/images/agreement/agreement.pdf']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/images/agreement/agreement.pdf']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/images/prezentations/octopus.pdf', '/images/octopus/scr1.png', '/images/octopus/scr2.png', '/images/octopus/scr3.png', '/images/octopus/scr4.png', '/images/octopus/scr5.png', '/images/octopus/scr6.png']
+returned links
+ ['/services', '/services/information-security-audit', '/services/improving-information-security-system', '/services/protecting-confidential-information-and-personal-data', '/services/investigation-of-security-incidents', '/services/analysis-of-malware', '/services/documents-development', '/products/athena', '/products/octopus', '/about', '/about/events', '/about/sertifikaty', '/about/vakansii', '/about/contacts', '/ru/', '/images/athena/scr1.png', '/images/athena/scr2.png', '/images/athena/scr3.png', '/images/athena/scr4.png', '/images/athena/scr5.png', '/images/athena/scr6.png', 
+'/images/prezentations/athena.pdf']
+2020-04-23 17:41:00.587966 [INFO] - Parse time 2.5399587154388428 sec
 
-
-/services
-/services/information-security-audit
-/services/improving-information-security-system
-/services/protecting-confidential-information-and-personal-data
-/services/investigation-of-security-incidents
-/services/analysis-of-malware
-/services/documents-development
-/products/athena
-/products/octopus
-/about
-/about/events
-/about/sertifikaty
-/about/vakansii
-/about/contacts
-/ru/
-/component/content/article/2-uncategorised/4-athena
-/images/athena/scr1.png
-/images/athena/scr2.png
-/images/athena/scr3.png
-/images/athena/scr4.png
-/images/athena/scr5.png
-/images/athena/scr6.png
-/images/prezentations/athena.pdf
-/images/prezentations/octopus.pdf
-/images/octopus/scr1.png
-/images/octopus/scr2.png
-/images/octopus/scr3.png
-/images/octopus/scr4.png
-/images/octopus/scr5.png
-/images/octopus/scr6.png
-/about/events/event/TBForum2020
-/about/events/event/ImportSub2019
-/about/events/event/InfoSecurity2018
-/about/events/event/InfoSecurity2017
-/about/events/event/InfoSecurity2016
-/images/agreement/agreement.pdf
-/images/prezentations/Athena_brochure.jpg
-/images/prezentations/afina_presentation.pdf
-/components/com_eventgallery/helpers/image.php
-/components/com_eventgallery/helpers/image.php
+2020-04-23 17:41:00.592973 [INFO] - 
+        /-contacts
+       |
+       |--events
+   /about
+  |    |--sertifikaty
+  |    |
+  |     \-vakansii
+  |
+  |-componentcontentarticle2-uncategorised-4-athena
+  |
+  |        /-athena
+  |-products
+--|        \-octopus
+  |
+  |--ru
+  |
+  |        /-analysis-of-malware
+  |       |
+  |       |--documents-development
+  |       |
+  |       |--improving-information-security-system
+   \services
+          |--information-security-audit
+          |
+          |--investigation-of-security-incidents
+          |
+           \-protecting-confidential-information-and-personal-data
