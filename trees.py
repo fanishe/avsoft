@@ -11,12 +11,12 @@ class My_Tree(object):
                 /about
                 /about/events
                 /about/events/event/event1
-            = добавляем первый элемент в дерево
-            = следующие ссылки прикрепляем как дети предыдущей
+            > добавляем первый элемент в дерево
+            > следующие ссылки прикрепляем как дети предыдущей
         * Если ссылки
                 /components/content/article/article-title/Παλλὰς Ἀθηνᾶ
-            = из первого элемента делаем ветку дерева
-            = каждый элемент ссылки делаем веткой предыдущего
+            > из первого элемента делаем ветку дерева
+            > каждый элемент ссылки делаем веткой предыдущего
               предварително проверив не является ли элемент веткой
         * Если список пустой пропускаем
     - Открывает GUI и показывает дерево
@@ -39,7 +39,10 @@ class My_Tree(object):
                 l = l.split('/')
                 yield l
 
-    def generate_tree(self, generated_list):
+    def generate_tree(self, filename):
+        # Прочесть файл в который переданы ссылки из Parse_links
+        generated_list = self.read_file(filename)
+
         # генерация дерева
         for l_links in generated_list:
             if l_links:

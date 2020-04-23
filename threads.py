@@ -2,7 +2,7 @@ from threading import Thread
 from parse_link import Parse_Link
 from datetime import datetime
 from logs import Logger
-
+from queue import Queue
 
 class My_Thread(Thread):
     """ Поток для генерации ссылок 
@@ -55,3 +55,47 @@ class My_Thread(Thread):
         except Exception as e:
             log = Logger()
             log.error(f'{self.getName()} {e} - { self.main_url }{ self.link}')
+
+
+class Worker(Thread):
+    """ Запускает поток из предоставленной очереди заданий """
+    def __init__(self, tasks):
+        Thread.__init__(self)
+        self.tasks = tasks
+        self.daemon = True
+        self.start()
+
+    def run(self):
+        log = Logger(onprint=True)
+        while True:
+            log.info(f'{self.getName()} - STARTED')
+            func, args, kargs = self.tasks.get()
+            try:
+                func(*args, **kargs)
+            except Exception as e:
+                log.error(f'{self.getName()} - {e}')
+            finally:
+                # задание выполнено 
+                self.tasks.task_done()
+                log.info(f'{self.getName()} - DONE')
+
+
+class ThreadPool:
+    """ Пул потоков получаючщий задания из очереди """
+    def __init__(self, num_threads):
+        self.tasks = Queue(num_threads)
+        for _ in range(num_threads):
+            Worker(self.tasks)
+
+    def add_task(self, func, *args, **kargs):
+        """ Добавить задание в очередь """
+        self.tasks.put((func, args, kargs))
+
+    def map(self, func, args_list):
+        """ Добавить список заданий в очередь """
+        for args in args_list:
+            self.add_task(func, args)
+
+    def wait_completion(self):
+        """ Дождаться выполнения всех заданий и завершить потоки в очереди """
+        self.tasks.join()
