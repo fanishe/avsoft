@@ -5,7 +5,7 @@
 <img src="testing/mem2.jpg" alt="mem" style="zoom:25%;" />
 </details>
 <details>
- <summary>UPD:</summary>
+ <summary><b>UPD:</b></summary>
 
 * _27.04.2020_
 В асинхронной версии при тесте яндекса очень часто логируется ошибка о невозможности установить соединение с хостом.
