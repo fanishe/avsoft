@@ -21,10 +21,7 @@ def main(link):
 
     tree = My_Tree()
     # чтение из файла и создание генератора
-    generator = tree.read_file(filename)
-
-    # генерация дерева
-    tree.generate_tree(generator)
+    tree.generate_tree(filename)
     # запись дерева в лог и вывод в консоль
     log.info(tree)
     # так же есть возможность вывод на экран с помощью GUI
